@@ -1,0 +1,29 @@
+2025-03-13 01:57:52,593 - market_maker - INFO - Starting market making bot
+2025-03-13 01:57:52,593 - market_maker - INFO - Calculating updated lambda values for USDT/USD...
+2025-03-13 01:57:52,593 - market_maker - INFO - Estimating lambda values for USDT/USD from order book data...
+2025-03-13 01:58:03,300 - market_maker - INFO - Estimated lambda values for USDT/USD: lambda_b=1001.26, lambda_a=1810.28
+2025-03-13 01:58:03,300 - market_maker - INFO - Latest λ values: λ_b = 1001.26, λ_a = 1810.28
+2025-03-13 01:58:03,311 - market_maker - INFO - Successfully initialized kraken exchange
+2025-03-13 01:58:03,312 - market_maker - INFO - Initialized order manager for USDT/USD with base size 5.0
+2025-03-13 01:58:03,312 - market_maker - INFO - Initialized circuit breakers with price change threshold: 0.2
+2025-03-13 01:58:03,312 - market_maker - INFO - Initialized inventory manager with max pct: 0.35, threshold: 0.2
+2025-03-13 01:58:03,312 - market_maker - INFO - Initialized A-S model with gamma=0.001, lambda_b=1001.2553943953251, lambda_a=1810.2836426116583
+2025-03-13 01:58:03,312 - market_maker - INFO - Avellaneda-Stoikov model initialized with: γ=0.001, λ_b=1001.26, λ_a=1810.28
+2025-03-13 01:58:03,312 - market_maker - INFO - === Market Making Cycle: 2025-03-13 01:58:03.312528 ===
+2025-03-13 01:58:03,312 - market_maker - INFO - Fetching 40 5m candles for USDT/USD
+2025-03-13 01:58:05,712 - market_maker - INFO - Successfully fetched 40 candles
+2025-03-13 01:58:08,671 - market_maker - INFO - Balances: USDT=0, USD=0
+2025-03-13 01:58:09,797 - market_maker - INFO - Updated inventory: 0.0000 (base: 0, quote: 0)
+2025-03-13 01:58:09,798 - market_maker - INFO - A-S Model - Mid: 0.999855, Bid: 0.998856, Ask: 1.000407
+2025-03-13 01:58:09,798 - market_maker - INFO - Prices - Mid: 0.999855, Bid: 0.998856, Ask: 1.000407
+2025-03-13 01:58:12,652 - market_maker - INFO - Placing buy order: 5.0 @ 0.998856
+2025-03-13 01:58:12,765 - market_maker - ERROR - Error placing buy order: kraken {"error":["EOrder:Insufficient funds"]}
+2025-03-13 01:58:12,765 - market_maker - INFO - Placing sell order: 5.0 @ 1.000407
+2025-03-13 01:58:12,880 - market_maker - ERROR - Error placing sell order: kraken {"error":["EOrder:Insufficient funds"]}
+2025-03-13 01:58:12,880 - market_maker - INFO - Cycle completed - Vol: 0.000108, Inv: 0.0000
+2025-03-13 01:58:15,496 - market_maker - INFO - Bot stopped by user
+2025-03-13 01:58:15,497 - market_maker - INFO - Cancelling all open orders for USDT/USD
+2025-03-13 01:58:15,921 - market_maker - INFO - Cancelled 0 open orders
+2025-03-13 01:58:15,921 - market_maker - INFO - Bot shutting down
+2025-03-13 01:58:15,922 - market_maker - INFO - Cancelling all open orders for USDT/USD
+2025-03-13 01:58:18,888 - market_maker - INFO - Cancelled 0 open orders

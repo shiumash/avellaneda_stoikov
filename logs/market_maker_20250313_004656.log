@@ -1,0 +1,1903 @@
+2025-03-13 00:46:56,142 - market_maker - INFO - Starting market making bot in paper trading mode
+2025-03-13 00:46:56,146 - market_maker - INFO - Generated 1000 historical candles
+2025-03-13 00:46:56,146 - market_maker - INFO - Initialized mock exchange with balances: {'USDT': {'free': 1000.0, 'used': 0.0, 'total': 1000.0}, 'USD': {'free': 10000.0, 'used': 0.0, 'total': 10000.0}}
+2025-03-13 00:46:56,146 - market_maker - INFO - Initialized mock exchange with price: 1.0, volatility: 0.0005
+2025-03-13 00:46:56,146 - market_maker - INFO - Initialized order manager for USDT/USD with base size 5.0
+2025-03-13 00:46:56,146 - market_maker - INFO - Initialized circuit breakers with price change threshold: 0.2
+2025-03-13 00:46:56,146 - market_maker - INFO - Initialized inventory manager with max pct: 0.1, threshold: 0.05
+2025-03-13 00:46:56,146 - market_maker - INFO - Initialized A-S model with gamma=0.001, lambda_b=194841.11975530925, lambda_a=50.0
+2025-03-13 00:46:56,146 - market_maker - INFO - Starting paper trading for 100 cycles
+2025-03-13 00:46:56,146 - market_maker - INFO - === Paper Trading Cycle 1/100 ===
+2025-03-13 00:46:56,148 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:46:56,148 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:46:56,148 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:56.148255 ===
+2025-03-13 00:46:56,149 - market_maker - INFO - Balances: USDT=1000.0, USD=10000.0
+2025-03-13 00:46:56,149 - market_maker - INFO - Updated inventory: -0.8186 (base: 1000.0, quote: 10000.0)
+2025-03-13 00:46:56,149 - market_maker - INFO - A-S Model - Mid: 0.997561, Bid: 0.997556, Ask: 1.017561
+2025-03-13 00:46:56,149 - market_maker - INFO - Spread adjustment: inventory=-0.8186, factor=0.8000
+2025-03-13 00:46:56,149 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:56,149 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:56,149 - market_maker - INFO - Prices - Mid: 0.997561, Bid: 0.997560, Ask: 1.025561
+2025-03-13 00:46:56,149 - market_maker - INFO - Placing buy order: 5.0 @ 0.997560
+2025-03-13 00:46:56,149 - market_maker - INFO - Created buy order 1: 5.0 @ 0.9975600118904363
+2025-03-13 00:46:56,149 - market_maker - INFO - Successfully placed buy order with ID: 1
+2025-03-13 00:46:56,149 - market_maker - INFO - Placing sell order: 5.0 @ 1.025561
+2025-03-13 00:46:56,149 - market_maker - INFO - Created sell order 2: 5.0 @ 1.0255607666834399
+2025-03-13 00:46:56,149 - market_maker - INFO - Successfully placed sell order with ID: 2
+2025-03-13 00:46:56,149 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8186
+2025-03-13 00:46:56,254 - market_maker - INFO - === Paper Trading Cycle 2/100 ===
+2025-03-13 00:46:56,257 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:56.257365 ===
+2025-03-13 00:46:56,258 - market_maker - INFO - Balances: USDT=995.0, USD=9995.012199940547
+2025-03-13 00:46:56,258 - market_maker - INFO - Executed buy order: 5.0 @ 0.9975600118904363
+2025-03-13 00:46:56,258 - market_maker - INFO - Updated inventory: -0.8194 (base: 995.0, quote: 9995.012199940547)
+2025-03-13 00:46:56,258 - market_maker - INFO - A-S Model - Mid: 0.997196, Bid: 0.997191, Ask: 1.017196
+2025-03-13 00:46:56,259 - market_maker - INFO - Spread adjustment: inventory=-0.8194, factor=0.8000
+2025-03-13 00:46:56,259 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:56,259 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:56,259 - market_maker - INFO - Prices - Mid: 0.997196, Bid: 0.997195, Ask: 1.025196
+2025-03-13 00:46:56,259 - market_maker - INFO - Placing buy order: 5.0 @ 0.997195
+2025-03-13 00:46:56,259 - market_maker - INFO - Created buy order 3: 5.0 @ 0.9971949810815142
+2025-03-13 00:46:56,259 - market_maker - INFO - Successfully placed buy order with ID: 3
+2025-03-13 00:46:56,259 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8194
+2025-03-13 00:46:56,364 - market_maker - INFO - === Paper Trading Cycle 3/100 ===
+2025-03-13 00:46:56,366 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:56.366682 ===
+2025-03-13 00:46:56,368 - market_maker - INFO - Balances: USDT=1000.0, USD=9990.02622503514
+2025-03-13 00:46:56,368 - market_maker - INFO - Updated inventory: -0.8184 (base: 1000.0, quote: 9990.02622503514)
+2025-03-13 00:46:56,368 - market_maker - INFO - A-S Model - Mid: 0.997732, Bid: 0.997726, Ask: 1.017731
+2025-03-13 00:46:56,368 - market_maker - INFO - Spread adjustment: inventory=-0.8184, factor=0.8000
+2025-03-13 00:46:56,368 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:56,368 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:56,368 - market_maker - INFO - Prices - Mid: 0.997732, Bid: 0.997730, Ask: 1.025731
+2025-03-13 00:46:56,368 - market_maker - INFO - Executed buy order: 5.0 @ 0.9971949810815142
+2025-03-13 00:46:56,368 - market_maker - INFO - Placing buy order: 5.0 @ 0.997730
+2025-03-13 00:46:56,368 - market_maker - INFO - Created buy order 4: 5.0 @ 0.9977304971445854
+2025-03-13 00:46:56,368 - market_maker - INFO - Successfully placed buy order with ID: 4
+2025-03-13 00:46:56,368 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8184
+2025-03-13 00:46:56,472 - market_maker - INFO - === Paper Trading Cycle 4/100 ===
+2025-03-13 00:46:56,474 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:56.474276 ===
+2025-03-13 00:46:56,475 - market_maker - INFO - Balances: USDT=1005.0, USD=9985.037572549418
+2025-03-13 00:46:56,475 - market_maker - INFO - Updated inventory: -0.8168 (base: 1005.0, quote: 9985.037572549418)
+2025-03-13 00:46:56,475 - market_maker - INFO - A-S Model - Mid: 1.001597, Bid: 1.001592, Ask: 1.021597
+2025-03-13 00:46:56,475 - market_maker - INFO - Spread adjustment: inventory=-0.8168, factor=0.8000
+2025-03-13 00:46:56,475 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:56,475 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:56,475 - market_maker - INFO - Prices - Mid: 1.001597, Bid: 1.001596, Ask: 1.029597
+2025-03-13 00:46:56,475 - market_maker - INFO - Cancelling order ID: 4
+2025-03-13 00:46:56,475 - market_maker - INFO - Canceled order 4
+2025-03-13 00:46:56,475 - market_maker - INFO - Cancelling order ID: 2
+2025-03-13 00:46:56,475 - market_maker - INFO - Canceled order 2
+2025-03-13 00:46:56,475 - market_maker - INFO - Placing buy order: 5.0 @ 1.001596
+2025-03-13 00:46:56,475 - market_maker - INFO - Created buy order 5: 5.0 @ 1.0015958617930183
+2025-03-13 00:46:56,475 - market_maker - INFO - Successfully placed buy order with ID: 5
+2025-03-13 00:46:56,475 - market_maker - INFO - Placing sell order: 5.0 @ 1.029597
+2025-03-13 00:46:56,475 - market_maker - INFO - Created sell order 6: 5.0 @ 1.0295966165703445
+2025-03-13 00:46:56,475 - market_maker - INFO - Successfully placed sell order with ID: 6
+2025-03-13 00:46:56,475 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8168
+2025-03-13 00:46:56,580 - market_maker - INFO - === Paper Trading Cycle 5/100 ===
+2025-03-13 00:46:56,581 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:56.581907 ===
+2025-03-13 00:46:56,583 - market_maker - INFO - Balances: USDT=1005.0, USD=9985.018245726176
+2025-03-13 00:46:56,583 - market_maker - INFO - Updated inventory: -0.8152 (base: 1005.0, quote: 9985.018245726176)
+2025-03-13 00:46:56,583 - market_maker - INFO - A-S Model - Mid: 1.011290, Bid: 1.011285, Ask: 1.031290
+2025-03-13 00:46:56,583 - market_maker - INFO - Spread adjustment: inventory=-0.8152, factor=0.8000
+2025-03-13 00:46:56,583 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:56,583 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:56,583 - market_maker - INFO - Prices - Mid: 1.011290, Bid: 1.011289, Ask: 1.039290
+2025-03-13 00:46:56,583 - market_maker - INFO - Cancelling order ID: 5
+2025-03-13 00:46:56,583 - market_maker - INFO - Canceled order 5
+2025-03-13 00:46:56,583 - market_maker - INFO - Cancelling order ID: 6
+2025-03-13 00:46:56,583 - market_maker - INFO - Canceled order 6
+2025-03-13 00:46:56,583 - market_maker - INFO - Placing buy order: 5.0 @ 1.011289
+2025-03-13 00:46:56,583 - market_maker - INFO - Created buy order 7: 5.0 @ 1.011289409002835
+2025-03-13 00:46:56,583 - market_maker - INFO - Successfully placed buy order with ID: 7
+2025-03-13 00:46:56,583 - market_maker - INFO - Placing sell order: 5.0 @ 1.039290
+2025-03-13 00:46:56,583 - market_maker - INFO - Executed buy order: 5.0 @ 1.011289409002835
+2025-03-13 00:46:56,583 - market_maker - INFO - Created sell order 8: 5.0 @ 1.0392901637657053
+2025-03-13 00:46:56,583 - market_maker - INFO - Successfully placed sell order with ID: 8
+2025-03-13 00:46:56,583 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8152
+2025-03-13 00:46:56,683 - market_maker - INFO - === Paper Trading Cycle 6/100 ===
+2025-03-13 00:46:56,685 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:56.685929 ===
+2025-03-13 00:46:56,687 - market_maker - INFO - Balances: USDT=1010.0, USD=9984.969777990127
+2025-03-13 00:46:56,687 - market_maker - INFO - Updated inventory: -0.8137 (base: 1010.0, quote: 9984.969777990127)
+2025-03-13 00:46:56,687 - market_maker - INFO - A-S Model - Mid: 1.015643, Bid: 1.015638, Ask: 1.035642
+2025-03-13 00:46:56,687 - market_maker - INFO - Spread adjustment: inventory=-0.8137, factor=0.8000
+2025-03-13 00:46:56,687 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:56,687 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:56,687 - market_maker - INFO - Prices - Mid: 1.015643, Bid: 1.015642, Ask: 1.043642
+2025-03-13 00:46:56,687 - market_maker - INFO - Cancelling order ID: 8
+2025-03-13 00:46:56,687 - market_maker - INFO - Canceled order 8
+2025-03-13 00:46:56,687 - market_maker - INFO - Placing buy order: 5.0 @ 1.015642
+2025-03-13 00:46:56,687 - market_maker - INFO - Created buy order 9: 5.0 @ 1.0156416616689705
+2025-03-13 00:46:56,687 - market_maker - INFO - Successfully placed buy order with ID: 9
+2025-03-13 00:46:56,687 - market_maker - INFO - Placing sell order: 5.0 @ 1.043642
+2025-03-13 00:46:56,687 - market_maker - INFO - Created sell order 10: 5.0 @ 1.0436424164178484
+2025-03-13 00:46:56,687 - market_maker - INFO - Successfully placed sell order with ID: 10
+2025-03-13 00:46:56,687 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8137
+2025-03-13 00:46:56,789 - market_maker - INFO - === Paper Trading Cycle 7/100 ===
+2025-03-13 00:46:56,793 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:56.793075 ===
+2025-03-13 00:46:56,795 - market_maker - INFO - Balances: USDT=1010.0, USD=9979.891569681782
+2025-03-13 00:46:56,795 - market_maker - INFO - Updated inventory: -0.8119 (base: 1010.0, quote: 9979.891569681782)
+2025-03-13 00:46:56,795 - market_maker - INFO - A-S Model - Mid: 1.026060, Bid: 1.026055, Ask: 1.046060
+2025-03-13 00:46:56,795 - market_maker - INFO - Spread adjustment: inventory=-0.8119, factor=0.8000
+2025-03-13 00:46:56,795 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:56,795 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:56,795 - market_maker - INFO - Prices - Mid: 1.026060, Bid: 1.026059, Ask: 1.054059
+2025-03-13 00:46:56,795 - market_maker - INFO - Cancelling order ID: 9
+2025-03-13 00:46:56,796 - market_maker - INFO - Canceled order 9
+2025-03-13 00:46:56,796 - market_maker - INFO - Cancelling order ID: 10
+2025-03-13 00:46:56,796 - market_maker - INFO - Canceled order 10
+2025-03-13 00:46:56,796 - market_maker - INFO - Placing buy order: 5.0 @ 1.026059
+2025-03-13 00:46:56,796 - market_maker - INFO - Created buy order 11: 5.0 @ 1.0260587316593186
+2025-03-13 00:46:56,796 - market_maker - INFO - Successfully placed buy order with ID: 11
+2025-03-13 00:46:56,796 - market_maker - INFO - Placing sell order: 5.0 @ 1.054059
+2025-03-13 00:46:56,796 - market_maker - INFO - Created sell order 12: 5.0 @ 1.0540594863918977
+2025-03-13 00:46:56,796 - market_maker - INFO - Successfully placed sell order with ID: 12
+2025-03-13 00:46:56,796 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8119
+2025-03-13 00:46:56,901 - market_maker - INFO - === Paper Trading Cycle 8/100 ===
+2025-03-13 00:46:56,903 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:56.903602 ===
+2025-03-13 00:46:56,904 - market_maker - INFO - Balances: USDT=1010.0, USD=9979.839484331831
+2025-03-13 00:46:56,905 - market_maker - INFO - Executed buy order: 5.0 @ 1.0260587316593186
+2025-03-13 00:46:56,905 - market_maker - INFO - Updated inventory: -0.8119 (base: 1010.0, quote: 9979.839484331831)
+2025-03-13 00:46:56,905 - market_maker - INFO - A-S Model - Mid: 1.025795, Bid: 1.025790, Ask: 1.045795
+2025-03-13 00:46:56,905 - market_maker - INFO - Spread adjustment: inventory=-0.8119, factor=0.8000
+2025-03-13 00:46:56,905 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:56,905 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:56,905 - market_maker - INFO - Prices - Mid: 1.025795, Bid: 1.025794, Ask: 1.053795
+2025-03-13 00:46:56,905 - market_maker - INFO - Placing buy order: 5.0 @ 1.025794
+2025-03-13 00:46:56,905 - market_maker - INFO - Created buy order 13: 5.0 @ 1.0257938206044284
+2025-03-13 00:46:56,905 - market_maker - INFO - Successfully placed buy order with ID: 13
+2025-03-13 00:46:56,905 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8119
+2025-03-13 00:46:57,010 - market_maker - INFO - === Paper Trading Cycle 9/100 ===
+2025-03-13 00:46:57,013 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:57.013404 ===
+2025-03-13 00:46:57,015 - market_maker - INFO - Balances: USDT=1015.0, USD=9974.71051522881
+2025-03-13 00:46:57,015 - market_maker - INFO - Updated inventory: -0.8103 (base: 1015.0, quote: 9974.71051522881)
+2025-03-13 00:46:57,015 - market_maker - INFO - A-S Model - Mid: 1.029912, Bid: 1.029907, Ask: 1.049912
+2025-03-13 00:46:57,015 - market_maker - INFO - Spread adjustment: inventory=-0.8103, factor=0.8000
+2025-03-13 00:46:57,015 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:57,016 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:57,016 - market_maker - INFO - Prices - Mid: 1.029912, Bid: 1.029911, Ask: 1.057911
+2025-03-13 00:46:57,016 - market_maker - INFO - Cancelling order ID: 13
+2025-03-13 00:46:57,016 - market_maker - INFO - Canceled order 13
+2025-03-13 00:46:57,016 - market_maker - INFO - Cancelling order ID: 12
+2025-03-13 00:46:57,016 - market_maker - INFO - Canceled order 12
+2025-03-13 00:46:57,016 - market_maker - INFO - Placing buy order: 5.0 @ 1.029911
+2025-03-13 00:46:57,016 - market_maker - INFO - Created buy order 14: 5.0 @ 1.0299107343322467
+2025-03-13 00:46:57,016 - market_maker - INFO - Successfully placed buy order with ID: 14
+2025-03-13 00:46:57,016 - market_maker - INFO - Placing sell order: 5.0 @ 1.057911
+2025-03-13 00:46:57,016 - market_maker - INFO - Executed buy order: 5.0 @ 1.0299107343322467
+2025-03-13 00:46:57,016 - market_maker - INFO - Created sell order 15: 5.0 @ 1.0579114890507237
+2025-03-13 00:46:57,016 - market_maker - INFO - Successfully placed sell order with ID: 15
+2025-03-13 00:46:57,016 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8103
+2025-03-13 00:46:57,121 - market_maker - INFO - === Paper Trading Cycle 10/100 ===
+2025-03-13 00:46:57,128 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:57.128418 ===
+2025-03-13 00:46:57,131 - market_maker - INFO - Balances: USDT=1020.0, USD=9974.68993066017
+2025-03-13 00:46:57,131 - market_maker - INFO - Updated inventory: -0.8101 (base: 1020.0, quote: 9974.68993066017)
+2025-03-13 00:46:57,131 - market_maker - INFO - A-S Model - Mid: 1.025922, Bid: 1.025917, Ask: 1.045922
+2025-03-13 00:46:57,131 - market_maker - INFO - Spread adjustment: inventory=-0.8101, factor=0.8000
+2025-03-13 00:46:57,131 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:57,131 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:57,131 - market_maker - INFO - Prices - Mid: 1.025922, Bid: 1.025921, Ask: 1.053922
+2025-03-13 00:46:57,131 - market_maker - INFO - Cancelling order ID: 15
+2025-03-13 00:46:57,131 - market_maker - INFO - Canceled order 15
+2025-03-13 00:46:57,131 - market_maker - INFO - Placing buy order: 5.0 @ 1.025921
+2025-03-13 00:46:57,131 - market_maker - INFO - Created buy order 16: 5.0 @ 1.0259211050392447
+2025-03-13 00:46:57,131 - market_maker - INFO - Successfully placed buy order with ID: 16
+2025-03-13 00:46:57,132 - market_maker - INFO - Placing sell order: 5.0 @ 1.053922
+2025-03-13 00:46:57,132 - market_maker - INFO - Created sell order 17: 5.0 @ 1.0539218597561306
+2025-03-13 00:46:57,132 - market_maker - INFO - Successfully placed sell order with ID: 17
+2025-03-13 00:46:57,132 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8101
+2025-03-13 00:46:57,237 - market_maker - INFO - === Paper Trading Cycle 11/100 ===
+2025-03-13 00:46:57,246 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:46:57,247 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:46:57,247 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:57.247120 ===
+2025-03-13 00:46:57,250 - market_maker - INFO - Balances: USDT=1020.0, USD=9969.560325134973
+2025-03-13 00:46:57,250 - market_maker - INFO - Updated inventory: -0.8099 (base: 1020.0, quote: 9969.560325134973)
+2025-03-13 00:46:57,250 - market_maker - INFO - A-S Model - Mid: 1.026460, Bid: 1.026455, Ask: 1.046460
+2025-03-13 00:46:57,250 - market_maker - INFO - Spread adjustment: inventory=-0.8099, factor=0.8000
+2025-03-13 00:46:57,250 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:57,250 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:57,250 - market_maker - INFO - Prices - Mid: 1.026460, Bid: 1.026459, Ask: 1.054460
+2025-03-13 00:46:57,250 - market_maker - INFO - Cancelling order ID: 16
+2025-03-13 00:46:57,250 - market_maker - INFO - Canceled order 16
+2025-03-13 00:46:57,250 - market_maker - INFO - Cancelling order ID: 17
+2025-03-13 00:46:57,250 - market_maker - INFO - Canceled order 17
+2025-03-13 00:46:57,250 - market_maker - INFO - Placing buy order: 5.0 @ 1.026459
+2025-03-13 00:46:57,250 - market_maker - INFO - Created buy order 18: 5.0 @ 1.0264593074428214
+2025-03-13 00:46:57,250 - market_maker - INFO - Successfully placed buy order with ID: 18
+2025-03-13 00:46:57,251 - market_maker - INFO - Placing sell order: 5.0 @ 1.054460
+2025-03-13 00:46:57,251 - market_maker - INFO - Executed buy order: 5.0 @ 1.0264593074428214
+2025-03-13 00:46:57,251 - market_maker - INFO - Created sell order 19: 5.0 @ 1.0544600621581088
+2025-03-13 00:46:57,251 - market_maker - INFO - Successfully placed sell order with ID: 19
+2025-03-13 00:46:57,251 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8099
+2025-03-13 00:46:57,356 - market_maker - INFO - === Paper Trading Cycle 12/100 ===
+2025-03-13 00:46:57,363 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:57.363641 ===
+2025-03-13 00:46:57,366 - market_maker - INFO - Balances: USDT=1025.0, USD=9969.557634122955
+2025-03-13 00:46:57,366 - market_maker - INFO - Updated inventory: -0.8093 (base: 1025.0, quote: 9969.557634122955)
+2025-03-13 00:46:57,366 - market_maker - INFO - A-S Model - Mid: 1.025139, Bid: 1.025134, Ask: 1.045139
+2025-03-13 00:46:57,366 - market_maker - INFO - Spread adjustment: inventory=-0.8093, factor=0.8000
+2025-03-13 00:46:57,366 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:57,366 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:57,366 - market_maker - INFO - Prices - Mid: 1.025139, Bid: 1.025138, Ask: 1.053139
+2025-03-13 00:46:57,366 - market_maker - INFO - Cancelling order ID: 19
+2025-03-13 00:46:57,366 - market_maker - INFO - Canceled order 19
+2025-03-13 00:46:57,367 - market_maker - INFO - Placing buy order: 5.0 @ 1.025138
+2025-03-13 00:46:57,367 - market_maker - INFO - Created buy order 20: 5.0 @ 1.0251380615271235
+2025-03-13 00:46:57,367 - market_maker - INFO - Successfully placed buy order with ID: 20
+2025-03-13 00:46:57,367 - market_maker - INFO - Placing sell order: 5.0 @ 1.053139
+2025-03-13 00:46:57,367 - market_maker - INFO - Created sell order 21: 5.0 @ 1.0531388162368591
+2025-03-13 00:46:57,367 - market_maker - INFO - Successfully placed sell order with ID: 21
+2025-03-13 00:46:57,367 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8093
+2025-03-13 00:46:57,472 - market_maker - INFO - === Paper Trading Cycle 13/100 ===
+2025-03-13 00:46:57,481 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:57.481584 ===
+2025-03-13 00:46:57,484 - market_maker - INFO - Executed buy order: 5.0 @ 1.0251380615271235
+2025-03-13 00:46:57,484 - market_maker - INFO - Balances: USDT=1030.0, USD=9964.43194381532
+2025-03-13 00:46:57,484 - market_maker - INFO - Updated inventory: -0.8084 (base: 1030.0, quote: 9964.43194381532)
+2025-03-13 00:46:57,484 - market_maker - INFO - A-S Model - Mid: 1.025152, Bid: 1.025147, Ask: 1.045152
+2025-03-13 00:46:57,484 - market_maker - INFO - Spread adjustment: inventory=-0.8084, factor=0.8000
+2025-03-13 00:46:57,484 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:57,484 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:57,484 - market_maker - INFO - Prices - Mid: 1.025152, Bid: 1.025151, Ask: 1.053152
+2025-03-13 00:46:57,484 - market_maker - INFO - Placing buy order: 5.0 @ 1.025151
+2025-03-13 00:46:57,484 - market_maker - INFO - Created buy order 22: 5.0 @ 1.0251507807324862
+2025-03-13 00:46:57,484 - market_maker - INFO - Successfully placed buy order with ID: 22
+2025-03-13 00:46:57,484 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8084
+2025-03-13 00:46:57,590 - market_maker - INFO - === Paper Trading Cycle 14/100 ===
+2025-03-13 00:46:57,596 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:57.596779 ===
+2025-03-13 00:46:57,600 - market_maker - INFO - Balances: USDT=1030.0, USD=9959.306189911656
+2025-03-13 00:46:57,600 - market_maker - INFO - Updated inventory: -0.8078 (base: 1030.0, quote: 9959.306189911656)
+2025-03-13 00:46:57,600 - market_maker - INFO - A-S Model - Mid: 1.028042, Bid: 1.028037, Ask: 1.048042
+2025-03-13 00:46:57,600 - market_maker - INFO - Spread adjustment: inventory=-0.8078, factor=0.8000
+2025-03-13 00:46:57,600 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:57,600 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:57,600 - market_maker - INFO - Prices - Mid: 1.028042, Bid: 1.028041, Ask: 1.056042
+2025-03-13 00:46:57,600 - market_maker - INFO - Cancelling order ID: 22
+2025-03-13 00:46:57,600 - market_maker - INFO - Canceled order 22
+2025-03-13 00:46:57,600 - market_maker - INFO - Cancelling order ID: 21
+2025-03-13 00:46:57,600 - market_maker - INFO - Canceled order 21
+2025-03-13 00:46:57,600 - market_maker - INFO - Placing buy order: 5.0 @ 1.028041
+2025-03-13 00:46:57,600 - market_maker - INFO - Created buy order 23: 5.0 @ 1.0280412087851913
+2025-03-13 00:46:57,600 - market_maker - INFO - Successfully placed buy order with ID: 23
+2025-03-13 00:46:57,600 - market_maker - INFO - Placing sell order: 5.0 @ 1.056042
+2025-03-13 00:46:57,600 - market_maker - INFO - Executed buy order: 5.0 @ 1.0280412087851913
+2025-03-13 00:46:57,600 - market_maker - INFO - Created sell order 24: 5.0 @ 1.0560419634814253
+2025-03-13 00:46:57,600 - market_maker - INFO - Successfully placed sell order with ID: 24
+2025-03-13 00:46:57,600 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8078
+2025-03-13 00:46:57,706 - market_maker - INFO - === Paper Trading Cycle 15/100 ===
+2025-03-13 00:46:57,709 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:57.709284 ===
+2025-03-13 00:46:57,710 - market_maker - INFO - Balances: USDT=1035.0, USD=9959.291737771393
+2025-03-13 00:46:57,710 - market_maker - INFO - Updated inventory: -0.8069 (base: 1035.0, quote: 9959.291737771393)
+2025-03-13 00:46:57,710 - market_maker - INFO - A-S Model - Mid: 1.028503, Bid: 1.028498, Ask: 1.048503
+2025-03-13 00:46:57,710 - market_maker - INFO - Spread adjustment: inventory=-0.8069, factor=0.8000
+2025-03-13 00:46:57,710 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:57,710 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:57,710 - market_maker - INFO - Prices - Mid: 1.028503, Bid: 1.028502, Ask: 1.056503
+2025-03-13 00:46:57,710 - market_maker - INFO - Placing buy order: 5.0 @ 1.028502
+2025-03-13 00:46:57,710 - market_maker - INFO - Created buy order 25: 5.0 @ 1.0285019625849394
+2025-03-13 00:46:57,710 - market_maker - INFO - Successfully placed buy order with ID: 25
+2025-03-13 00:46:57,710 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8069
+2025-03-13 00:46:57,816 - market_maker - INFO - === Paper Trading Cycle 16/100 ===
+2025-03-13 00:46:57,821 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:57.821555 ===
+2025-03-13 00:46:57,824 - market_maker - INFO - Executed buy order: 5.0 @ 1.0285019625849394
+2025-03-13 00:46:57,824 - market_maker - INFO - Balances: USDT=1040.0, USD=9954.149227958469
+2025-03-13 00:46:57,824 - market_maker - INFO - Updated inventory: -0.8063 (base: 1040.0, quote: 9954.149227958469)
+2025-03-13 00:46:57,824 - market_maker - INFO - A-S Model - Mid: 1.026422, Bid: 1.026417, Ask: 1.046422
+2025-03-13 00:46:57,824 - market_maker - INFO - Spread adjustment: inventory=-0.8063, factor=0.8000
+2025-03-13 00:46:57,824 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:57,825 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:57,825 - market_maker - INFO - Prices - Mid: 1.026422, Bid: 1.026421, Ask: 1.054422
+2025-03-13 00:46:57,825 - market_maker - INFO - Cancelling order ID: 24
+2025-03-13 00:46:57,825 - market_maker - INFO - Canceled order 24
+2025-03-13 00:46:57,825 - market_maker - INFO - Placing buy order: 5.0 @ 1.026421
+2025-03-13 00:46:57,825 - market_maker - INFO - Created buy order 26: 5.0 @ 1.0264212014008902
+2025-03-13 00:46:57,825 - market_maker - INFO - Successfully placed buy order with ID: 26
+2025-03-13 00:46:57,825 - market_maker - INFO - Placing sell order: 5.0 @ 1.054422
+2025-03-13 00:46:57,825 - market_maker - INFO - Created sell order 27: 5.0 @ 1.054421956083728
+2025-03-13 00:46:57,825 - market_maker - INFO - Successfully placed sell order with ID: 27
+2025-03-13 00:46:57,825 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8063
+2025-03-13 00:46:57,930 - market_maker - INFO - === Paper Trading Cycle 17/100 ===
+2025-03-13 00:46:57,937 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:57.937934 ===
+2025-03-13 00:46:57,941 - market_maker - INFO - Balances: USDT=1040.0, USD=9949.017121951465
+2025-03-13 00:46:57,941 - market_maker - INFO - Updated inventory: -0.8057 (base: 1040.0, quote: 9949.017121951465)
+2025-03-13 00:46:57,941 - market_maker - INFO - A-S Model - Mid: 1.029339, Bid: 1.029334, Ask: 1.049339
+2025-03-13 00:46:57,941 - market_maker - INFO - Spread adjustment: inventory=-0.8057, factor=0.8000
+2025-03-13 00:46:57,941 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:57,941 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:57,941 - market_maker - INFO - Prices - Mid: 1.029339, Bid: 1.029338, Ask: 1.057339
+2025-03-13 00:46:57,941 - market_maker - INFO - Cancelling order ID: 26
+2025-03-13 00:46:57,941 - market_maker - INFO - Canceled order 26
+2025-03-13 00:46:57,942 - market_maker - INFO - Cancelling order ID: 27
+2025-03-13 00:46:57,942 - market_maker - INFO - Canceled order 27
+2025-03-13 00:46:57,942 - market_maker - INFO - Placing buy order: 5.0 @ 1.029338
+2025-03-13 00:46:57,942 - market_maker - INFO - Created buy order 28: 5.0 @ 1.0293377506927321
+2025-03-13 00:46:57,942 - market_maker - INFO - Successfully placed buy order with ID: 28
+2025-03-13 00:46:57,942 - market_maker - INFO - Placing sell order: 5.0 @ 1.057339
+2025-03-13 00:46:57,942 - market_maker - INFO - Created sell order 29: 5.0 @ 1.0573385053703268
+2025-03-13 00:46:57,942 - market_maker - INFO - Successfully placed sell order with ID: 29
+2025-03-13 00:46:57,942 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8057
+2025-03-13 00:46:58,047 - market_maker - INFO - === Paper Trading Cycle 18/100 ===
+2025-03-13 00:46:58,056 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:58.056563 ===
+2025-03-13 00:46:58,060 - market_maker - INFO - Balances: USDT=1040.0, USD=9949.002539205005
+2025-03-13 00:46:58,060 - market_maker - INFO - Updated inventory: -0.8041 (base: 1040.0, quote: 9949.002539205005)
+2025-03-13 00:46:58,060 - market_maker - INFO - A-S Model - Mid: 1.038663, Bid: 1.038658, Ask: 1.058663
+2025-03-13 00:46:58,060 - market_maker - INFO - Spread adjustment: inventory=-0.8041, factor=0.8000
+2025-03-13 00:46:58,060 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:58,060 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:58,060 - market_maker - INFO - Prices - Mid: 1.038663, Bid: 1.038662, Ask: 1.066663
+2025-03-13 00:46:58,060 - market_maker - INFO - Cancelling order ID: 28
+2025-03-13 00:46:58,060 - market_maker - INFO - Canceled order 28
+2025-03-13 00:46:58,060 - market_maker - INFO - Cancelling order ID: 29
+2025-03-13 00:46:58,060 - market_maker - INFO - Canceled order 29
+2025-03-13 00:46:58,061 - market_maker - INFO - Placing buy order: 5.0 @ 1.038662
+2025-03-13 00:46:58,061 - market_maker - INFO - Created buy order 30: 5.0 @ 1.038662179555076
+2025-03-13 00:46:58,061 - market_maker - INFO - Successfully placed buy order with ID: 30
+2025-03-13 00:46:58,061 - market_maker - INFO - Placing sell order: 5.0 @ 1.066663
+2025-03-13 00:46:58,061 - market_maker - INFO - Created sell order 31: 5.0 @ 1.0666629342185068
+2025-03-13 00:46:58,061 - market_maker - INFO - Successfully placed sell order with ID: 31
+2025-03-13 00:46:58,061 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8041
+2025-03-13 00:46:58,166 - market_maker - INFO - === Paper Trading Cycle 19/100 ===
+2025-03-13 00:46:58,174 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:58.174956 ===
+2025-03-13 00:46:58,177 - market_maker - INFO - Balances: USDT=1040.0, USD=9948.955917060694
+2025-03-13 00:46:58,177 - market_maker - INFO - Executed buy order: 5.0 @ 1.038662179555076
+2025-03-13 00:46:58,177 - market_maker - INFO - Updated inventory: -0.8044 (base: 1040.0, quote: 9948.955917060694)
+2025-03-13 00:46:58,178 - market_maker - INFO - A-S Model - Mid: 1.036711, Bid: 1.036706, Ask: 1.056711
+2025-03-13 00:46:58,178 - market_maker - INFO - Spread adjustment: inventory=-0.8044, factor=0.8000
+2025-03-13 00:46:58,178 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:58,178 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:58,178 - market_maker - INFO - Prices - Mid: 1.036711, Bid: 1.036710, Ask: 1.064711
+2025-03-13 00:46:58,178 - market_maker - INFO - Cancelling order ID: 31
+2025-03-13 00:46:58,178 - market_maker - INFO - Canceled order 31
+2025-03-13 00:46:58,178 - market_maker - INFO - Placing buy order: 5.0 @ 1.036710
+2025-03-13 00:46:58,178 - market_maker - INFO - Created buy order 32: 5.0 @ 1.036709977932796
+2025-03-13 00:46:58,178 - market_maker - INFO - Successfully placed buy order with ID: 32
+2025-03-13 00:46:58,178 - market_maker - INFO - Placing sell order: 5.0 @ 1.064711
+2025-03-13 00:46:58,178 - market_maker - INFO - Executed buy order: 5.0 @ 1.036709977932796
+2025-03-13 00:46:58,178 - market_maker - INFO - Created sell order 33: 5.0 @ 1.064710732599181
+2025-03-13 00:46:58,178 - market_maker - INFO - Successfully placed sell order with ID: 33
+2025-03-13 00:46:58,178 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8044
+2025-03-13 00:46:58,283 - market_maker - INFO - === Paper Trading Cycle 20/100 ===
+2025-03-13 00:46:58,291 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:58.291102 ===
+2025-03-13 00:46:58,294 - market_maker - INFO - Balances: USDT=1050.0, USD=9943.77236717103
+2025-03-13 00:46:58,294 - market_maker - INFO - Updated inventory: -0.8032 (base: 1050.0, quote: 9943.77236717103)
+2025-03-13 00:46:58,294 - market_maker - INFO - A-S Model - Mid: 1.033824, Bid: 1.033819, Ask: 1.053824
+2025-03-13 00:46:58,294 - market_maker - INFO - Spread adjustment: inventory=-0.8032, factor=0.8000
+2025-03-13 00:46:58,294 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:58,294 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:58,294 - market_maker - INFO - Prices - Mid: 1.033824, Bid: 1.033823, Ask: 1.061824
+2025-03-13 00:46:58,294 - market_maker - INFO - Cancelling order ID: 33
+2025-03-13 00:46:58,294 - market_maker - INFO - Canceled order 33
+2025-03-13 00:46:58,295 - market_maker - INFO - Placing buy order: 5.0 @ 1.033823
+2025-03-13 00:46:58,295 - market_maker - INFO - Created buy order 34: 5.0 @ 1.0338231762706478
+2025-03-13 00:46:58,295 - market_maker - INFO - Successfully placed buy order with ID: 34
+2025-03-13 00:46:58,295 - market_maker - INFO - Placing sell order: 5.0 @ 1.061824
+2025-03-13 00:46:58,295 - market_maker - INFO - Executed buy order: 5.0 @ 1.0338231762706478
+2025-03-13 00:46:58,295 - market_maker - INFO - Created sell order 35: 5.0 @ 1.061823930925516
+2025-03-13 00:46:58,295 - market_maker - INFO - Successfully placed sell order with ID: 35
+2025-03-13 00:46:58,295 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8032
+2025-03-13 00:46:58,400 - market_maker - INFO - === Paper Trading Cycle 21/100 ===
+2025-03-13 00:46:58,409 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:46:58,409 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:46:58,409 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:58.409755 ===
+2025-03-13 00:46:58,412 - market_maker - INFO - Balances: USDT=1055.0, USD=9938.603251289676
+2025-03-13 00:46:58,412 - market_maker - INFO - Updated inventory: -0.8027 (base: 1055.0, quote: 9938.603251289676)
+2025-03-13 00:46:58,412 - market_maker - INFO - A-S Model - Mid: 1.031090, Bid: 1.031085, Ask: 1.051090
+2025-03-13 00:46:58,412 - market_maker - INFO - Spread adjustment: inventory=-0.8027, factor=0.8000
+2025-03-13 00:46:58,412 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:58,412 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:58,413 - market_maker - INFO - Prices - Mid: 1.031090, Bid: 1.031089, Ask: 1.059090
+2025-03-13 00:46:58,413 - market_maker - INFO - Cancelling order ID: 35
+2025-03-13 00:46:58,413 - market_maker - INFO - Canceled order 35
+2025-03-13 00:46:58,413 - market_maker - INFO - Placing buy order: 5.0 @ 1.031089
+2025-03-13 00:46:58,413 - market_maker - INFO - Created buy order 36: 5.0 @ 1.0310889494236708
+2025-03-13 00:46:58,413 - market_maker - INFO - Successfully placed buy order with ID: 36
+2025-03-13 00:46:58,413 - market_maker - INFO - Placing sell order: 5.0 @ 1.059090
+2025-03-13 00:46:58,413 - market_maker - INFO - Created sell order 37: 5.0 @ 1.0590897040743887
+2025-03-13 00:46:58,413 - market_maker - INFO - Successfully placed sell order with ID: 37
+2025-03-13 00:46:58,413 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8027
+2025-03-13 00:46:58,519 - market_maker - INFO - === Paper Trading Cycle 22/100 ===
+2025-03-13 00:46:58,525 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:58.525366 ===
+2025-03-13 00:46:58,528 - market_maker - INFO - Balances: USDT=1055.0, USD=9933.447806542557
+2025-03-13 00:46:58,528 - market_maker - INFO - Updated inventory: -0.8020 (base: 1055.0, quote: 9933.447806542557)
+2025-03-13 00:46:58,528 - market_maker - INFO - A-S Model - Mid: 1.034283, Bid: 1.034278, Ask: 1.054283
+2025-03-13 00:46:58,528 - market_maker - INFO - Spread adjustment: inventory=-0.8020, factor=0.8000
+2025-03-13 00:46:58,528 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:58,528 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:58,528 - market_maker - INFO - Prices - Mid: 1.034283, Bid: 1.034282, Ask: 1.062282
+2025-03-13 00:46:58,528 - market_maker - INFO - Cancelling order ID: 36
+2025-03-13 00:46:58,528 - market_maker - INFO - Canceled order 36
+2025-03-13 00:46:58,529 - market_maker - INFO - Cancelling order ID: 37
+2025-03-13 00:46:58,529 - market_maker - INFO - Canceled order 37
+2025-03-13 00:46:58,529 - market_maker - INFO - Placing buy order: 5.0 @ 1.034282
+2025-03-13 00:46:58,529 - market_maker - INFO - Created buy order 38: 5.0 @ 1.03428168477998
+2025-03-13 00:46:58,529 - market_maker - INFO - Successfully placed buy order with ID: 38
+2025-03-13 00:46:58,529 - market_maker - INFO - Placing sell order: 5.0 @ 1.062282
+2025-03-13 00:46:58,529 - market_maker - INFO - Executed buy order: 5.0 @ 1.03428168477998
+2025-03-13 00:46:58,529 - market_maker - INFO - Created sell order 39: 5.0 @ 1.062282439424972
+2025-03-13 00:46:58,529 - market_maker - INFO - Successfully placed sell order with ID: 39
+2025-03-13 00:46:58,529 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8020
+2025-03-13 00:46:58,635 - market_maker - INFO - === Paper Trading Cycle 23/100 ===
+2025-03-13 00:46:58,644 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:58.644241 ===
+2025-03-13 00:46:58,647 - market_maker - INFO - Balances: USDT=1060.0, USD=9933.431842865777
+2025-03-13 00:46:58,647 - market_maker - INFO - Updated inventory: -0.8009 (base: 1060.0, quote: 9933.431842865777)
+2025-03-13 00:46:58,647 - market_maker - INFO - A-S Model - Mid: 1.036095, Bid: 1.036090, Ask: 1.056095
+2025-03-13 00:46:58,647 - market_maker - INFO - Spread adjustment: inventory=-0.8009, factor=0.8000
+2025-03-13 00:46:58,648 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:58,648 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:58,648 - market_maker - INFO - Prices - Mid: 1.036095, Bid: 1.036094, Ask: 1.064095
+2025-03-13 00:46:58,648 - market_maker - INFO - Cancelling order ID: 39
+2025-03-13 00:46:58,648 - market_maker - INFO - Canceled order 39
+2025-03-13 00:46:58,648 - market_maker - INFO - Placing buy order: 5.0 @ 1.036094
+2025-03-13 00:46:58,648 - market_maker - INFO - Created buy order 40: 5.0 @ 1.0360937533047865
+2025-03-13 00:46:58,648 - market_maker - INFO - Successfully placed buy order with ID: 40
+2025-03-13 00:46:58,648 - market_maker - INFO - Placing sell order: 5.0 @ 1.064095
+2025-03-13 00:46:58,648 - market_maker - INFO - Executed buy order: 5.0 @ 1.0360937533047865
+2025-03-13 00:46:58,648 - market_maker - INFO - Created sell order 41: 5.0 @ 1.0640945079394648
+2025-03-13 00:46:58,648 - market_maker - INFO - Successfully placed sell order with ID: 41
+2025-03-13 00:46:58,648 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8009
+2025-03-13 00:46:58,753 - market_maker - INFO - === Paper Trading Cycle 24/100 ===
+2025-03-13 00:46:58,762 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:58.762386 ===
+2025-03-13 00:46:58,765 - market_maker - INFO - Balances: USDT=1065.0, USD=9928.251374099253
+2025-03-13 00:46:58,765 - market_maker - INFO - Updated inventory: -0.8012 (base: 1065.0, quote: 9928.251374099253)
+2025-03-13 00:46:58,765 - market_maker - INFO - A-S Model - Mid: 1.029010, Bid: 1.029005, Ask: 1.049010
+2025-03-13 00:46:58,765 - market_maker - INFO - Spread adjustment: inventory=-0.8012, factor=0.8000
+2025-03-13 00:46:58,766 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:58,766 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:58,766 - market_maker - INFO - Prices - Mid: 1.029010, Bid: 1.029009, Ask: 1.057010
+2025-03-13 00:46:58,766 - market_maker - INFO - Cancelling order ID: 41
+2025-03-13 00:46:58,766 - market_maker - INFO - Canceled order 41
+2025-03-13 00:46:58,766 - market_maker - INFO - Placing buy order: 5.0 @ 1.029009
+2025-03-13 00:46:58,766 - market_maker - INFO - Created buy order 42: 5.0 @ 1.029009221085498
+2025-03-13 00:46:58,766 - market_maker - INFO - Successfully placed buy order with ID: 42
+2025-03-13 00:46:58,766 - market_maker - INFO - Placing sell order: 5.0 @ 1.057010
+2025-03-13 00:46:58,766 - market_maker - INFO - Executed buy order: 5.0 @ 1.029009221085498
+2025-03-13 00:46:58,766 - market_maker - INFO - Created sell order 43: 5.0 @ 1.0570099757227804
+2025-03-13 00:46:58,766 - market_maker - INFO - Successfully placed sell order with ID: 43
+2025-03-13 00:46:58,766 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8012
+2025-03-13 00:46:58,872 - market_maker - INFO - === Paper Trading Cycle 25/100 ===
+2025-03-13 00:46:58,881 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:58.881276 ===
+2025-03-13 00:46:58,884 - market_maker - INFO - Balances: USDT=1070.0, USD=9923.106327993824
+2025-03-13 00:46:58,884 - market_maker - INFO - Updated inventory: -0.8006 (base: 1070.0, quote: 9923.106327993824)
+2025-03-13 00:46:58,884 - market_maker - INFO - A-S Model - Mid: 1.027107, Bid: 1.027102, Ask: 1.047107
+2025-03-13 00:46:58,884 - market_maker - INFO - Spread adjustment: inventory=-0.8006, factor=0.8000
+2025-03-13 00:46:58,884 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:58,884 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:58,884 - market_maker - INFO - Prices - Mid: 1.027107, Bid: 1.027106, Ask: 1.055107
+2025-03-13 00:46:58,884 - market_maker - INFO - Cancelling order ID: 43
+2025-03-13 00:46:58,884 - market_maker - INFO - Canceled order 43
+2025-03-13 00:46:58,884 - market_maker - INFO - Placing buy order: 5.0 @ 1.027106
+2025-03-13 00:46:58,884 - market_maker - INFO - Created buy order 44: 5.0 @ 1.0271060915815826
+2025-03-13 00:46:58,884 - market_maker - INFO - Successfully placed buy order with ID: 44
+2025-03-13 00:46:58,885 - market_maker - INFO - Placing sell order: 5.0 @ 1.055107
+2025-03-13 00:46:58,885 - market_maker - INFO - Executed buy order: 5.0 @ 1.0271060915815826
+2025-03-13 00:46:58,885 - market_maker - INFO - Created sell order 45: 5.0 @ 1.05510684621352
+2025-03-13 00:46:58,885 - market_maker - INFO - Successfully placed sell order with ID: 45
+2025-03-13 00:46:58,885 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.8006
+2025-03-13 00:46:58,990 - market_maker - INFO - === Paper Trading Cycle 26/100 ===
+2025-03-13 00:46:58,998 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:58.998390 ===
+2025-03-13 00:46:59,000 - market_maker - INFO - Balances: USDT=1075.0, USD=9917.970797535916
+2025-03-13 00:46:59,000 - market_maker - INFO - Updated inventory: -0.7991 (base: 1075.0, quote: 9917.970797535916)
+2025-03-13 00:46:59,000 - market_maker - INFO - A-S Model - Mid: 1.030442, Bid: 1.030437, Ask: 1.050442
+2025-03-13 00:46:59,001 - market_maker - INFO - Spread adjustment: inventory=-0.7991, factor=0.8000
+2025-03-13 00:46:59,001 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:59,001 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:59,001 - market_maker - INFO - Prices - Mid: 1.030442, Bid: 1.030441, Ask: 1.058442
+2025-03-13 00:46:59,001 - market_maker - INFO - Cancelling order ID: 45
+2025-03-13 00:46:59,001 - market_maker - INFO - Canceled order 45
+2025-03-13 00:46:59,001 - market_maker - INFO - Placing buy order: 5.0 @ 1.030441
+2025-03-13 00:46:59,001 - market_maker - INFO - Created buy order 46: 5.0 @ 1.0304414638337875
+2025-03-13 00:46:59,001 - market_maker - INFO - Successfully placed buy order with ID: 46
+2025-03-13 00:46:59,001 - market_maker - INFO - Placing sell order: 5.0 @ 1.058442
+2025-03-13 00:46:59,001 - market_maker - INFO - Executed buy order: 5.0 @ 1.0304414638337875
+2025-03-13 00:46:59,001 - market_maker - INFO - Created sell order 47: 5.0 @ 1.0584422184522368
+2025-03-13 00:46:59,001 - market_maker - INFO - Successfully placed sell order with ID: 47
+2025-03-13 00:46:59,001 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7991
+2025-03-13 00:46:59,107 - market_maker - INFO - === Paper Trading Cycle 27/100 ===
+2025-03-13 00:46:59,116 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:59.116034 ===
+2025-03-13 00:46:59,117 - market_maker - INFO - Balances: USDT=1080.0, USD=9912.818590216748
+2025-03-13 00:46:59,118 - market_maker - INFO - Updated inventory: -0.7984 (base: 1080.0, quote: 9912.818590216748)
+2025-03-13 00:46:59,118 - market_maker - INFO - A-S Model - Mid: 1.028828, Bid: 1.028823, Ask: 1.048828
+2025-03-13 00:46:59,118 - market_maker - INFO - Spread adjustment: inventory=-0.7984, factor=0.8000
+2025-03-13 00:46:59,118 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:59,118 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:59,118 - market_maker - INFO - Prices - Mid: 1.028828, Bid: 1.028827, Ask: 1.056828
+2025-03-13 00:46:59,118 - market_maker - INFO - Cancelling order ID: 47
+2025-03-13 00:46:59,118 - market_maker - INFO - Canceled order 47
+2025-03-13 00:46:59,118 - market_maker - INFO - Placing buy order: 5.0 @ 1.028827
+2025-03-13 00:46:59,118 - market_maker - INFO - Created buy order 48: 5.0 @ 1.0288272460582364
+2025-03-13 00:46:59,118 - market_maker - INFO - Successfully placed buy order with ID: 48
+2025-03-13 00:46:59,118 - market_maker - INFO - Placing sell order: 5.0 @ 1.056828
+2025-03-13 00:46:59,118 - market_maker - INFO - Created sell order 49: 5.0 @ 1.0568280006709092
+2025-03-13 00:46:59,118 - market_maker - INFO - Successfully placed sell order with ID: 49
+2025-03-13 00:46:59,118 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7984
+2025-03-13 00:46:59,223 - market_maker - INFO - === Paper Trading Cycle 28/100 ===
+2025-03-13 00:46:59,231 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:59.231615 ===
+2025-03-13 00:46:59,234 - market_maker - INFO - Balances: USDT=1080.0, USD=9907.674453986458
+2025-03-13 00:46:59,234 - market_maker - INFO - Updated inventory: -0.7978 (base: 1080.0, quote: 9907.674453986458)
+2025-03-13 00:46:59,234 - market_maker - INFO - A-S Model - Mid: 1.031917, Bid: 1.031912, Ask: 1.051916
+2025-03-13 00:46:59,234 - market_maker - INFO - Spread adjustment: inventory=-0.7978, factor=0.8000
+2025-03-13 00:46:59,234 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:59,234 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:59,234 - market_maker - INFO - Prices - Mid: 1.031917, Bid: 1.031916, Ask: 1.059916
+2025-03-13 00:46:59,234 - market_maker - INFO - Cancelling order ID: 48
+2025-03-13 00:46:59,234 - market_maker - INFO - Canceled order 48
+2025-03-13 00:46:59,234 - market_maker - INFO - Cancelling order ID: 49
+2025-03-13 00:46:59,234 - market_maker - INFO - Canceled order 49
+2025-03-13 00:46:59,234 - market_maker - INFO - Placing buy order: 5.0 @ 1.031916
+2025-03-13 00:46:59,235 - market_maker - INFO - Created buy order 50: 5.0 @ 1.0319156175319146
+2025-03-13 00:46:59,235 - market_maker - INFO - Successfully placed buy order with ID: 50
+2025-03-13 00:46:59,235 - market_maker - INFO - Placing sell order: 5.0 @ 1.059916
+2025-03-13 00:46:59,235 - market_maker - INFO - Executed buy order: 5.0 @ 1.0319156175319146
+2025-03-13 00:46:59,235 - market_maker - INFO - Created sell order 51: 5.0 @ 1.0599163721389189
+2025-03-13 00:46:59,235 - market_maker - INFO - Successfully placed sell order with ID: 51
+2025-03-13 00:46:59,235 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7978
+2025-03-13 00:46:59,340 - market_maker - INFO - === Paper Trading Cycle 29/100 ===
+2025-03-13 00:46:59,346 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:59.346640 ===
+2025-03-13 00:46:59,349 - market_maker - INFO - Balances: USDT=1085.0, USD=9907.659012129088
+2025-03-13 00:46:59,349 - market_maker - INFO - Updated inventory: -0.7971 (base: 1085.0, quote: 9907.659012129088)
+2025-03-13 00:46:59,349 - market_maker - INFO - A-S Model - Mid: 1.030723, Bid: 1.030718, Ask: 1.050723
+2025-03-13 00:46:59,349 - market_maker - INFO - Spread adjustment: inventory=-0.7971, factor=0.8000
+2025-03-13 00:46:59,349 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:59,349 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:59,349 - market_maker - INFO - Prices - Mid: 1.030723, Bid: 1.030722, Ask: 1.058723
+2025-03-13 00:46:59,349 - market_maker - INFO - Cancelling order ID: 51
+2025-03-13 00:46:59,350 - market_maker - INFO - Canceled order 51
+2025-03-13 00:46:59,350 - market_maker - INFO - Placing buy order: 5.0 @ 1.030722
+2025-03-13 00:46:59,350 - market_maker - INFO - Created buy order 52: 5.0 @ 1.0307218249582193
+2025-03-13 00:46:59,350 - market_maker - INFO - Successfully placed buy order with ID: 52
+2025-03-13 00:46:59,350 - market_maker - INFO - Placing sell order: 5.0 @ 1.058723
+2025-03-13 00:46:59,350 - market_maker - INFO - Created sell order 53: 5.0 @ 1.0587225795596278
+2025-03-13 00:46:59,350 - market_maker - INFO - Successfully placed sell order with ID: 53
+2025-03-13 00:46:59,350 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7971
+2025-03-13 00:46:59,455 - market_maker - INFO - === Paper Trading Cycle 30/100 ===
+2025-03-13 00:46:59,464 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:59.464575 ===
+2025-03-13 00:46:59,467 - market_maker - INFO - Balances: USDT=1085.0, USD=9902.505403004297
+2025-03-13 00:46:59,468 - market_maker - INFO - Updated inventory: -0.7970 (base: 1085.0, quote: 9902.505403004297)
+2025-03-13 00:46:59,468 - market_maker - INFO - A-S Model - Mid: 1.030972, Bid: 1.030967, Ask: 1.050972
+2025-03-13 00:46:59,468 - market_maker - INFO - Spread adjustment: inventory=-0.7970, factor=0.8000
+2025-03-13 00:46:59,468 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:59,468 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:59,468 - market_maker - INFO - Prices - Mid: 1.030972, Bid: 1.030971, Ask: 1.058972
+2025-03-13 00:46:59,468 - market_maker - INFO - Executed buy order: 5.0 @ 1.0307218249582193
+2025-03-13 00:46:59,468 - market_maker - INFO - Placing buy order: 5.0 @ 1.030971
+2025-03-13 00:46:59,468 - market_maker - INFO - Created buy order 54: 5.0 @ 1.0309710688040117
+2025-03-13 00:46:59,468 - market_maker - INFO - Successfully placed buy order with ID: 54
+2025-03-13 00:46:59,468 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7970
+2025-03-13 00:46:59,574 - market_maker - INFO - === Paper Trading Cycle 31/100 ===
+2025-03-13 00:46:59,582 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:46:59,582 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:46:59,582 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:59.582680 ===
+2025-03-13 00:46:59,584 - market_maker - INFO - Executed buy order: 5.0 @ 1.0309710688040117
+2025-03-13 00:46:59,584 - market_maker - INFO - Balances: USDT=1095.0, USD=9897.350547660277
+2025-03-13 00:46:59,584 - market_maker - INFO - Updated inventory: -0.7957 (base: 1095.0, quote: 9897.350547660277)
+2025-03-13 00:46:59,585 - market_maker - INFO - A-S Model - Mid: 1.028319, Bid: 1.028314, Ask: 1.048319
+2025-03-13 00:46:59,585 - market_maker - INFO - Spread adjustment: inventory=-0.7957, factor=0.8000
+2025-03-13 00:46:59,585 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:59,585 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:59,585 - market_maker - INFO - Prices - Mid: 1.028319, Bid: 1.028318, Ask: 1.056318
+2025-03-13 00:46:59,585 - market_maker - INFO - Cancelling order ID: 53
+2025-03-13 00:46:59,585 - market_maker - INFO - Canceled order 53
+2025-03-13 00:46:59,585 - market_maker - INFO - Placing buy order: 5.0 @ 1.028318
+2025-03-13 00:46:59,585 - market_maker - INFO - Created buy order 55: 5.0 @ 1.0283176985866873
+2025-03-13 00:46:59,585 - market_maker - INFO - Successfully placed buy order with ID: 55
+2025-03-13 00:46:59,585 - market_maker - INFO - Placing sell order: 5.0 @ 1.056318
+2025-03-13 00:46:59,585 - market_maker - INFO - Executed buy order: 5.0 @ 1.0283176985866873
+2025-03-13 00:46:59,585 - market_maker - INFO - Created sell order 56: 5.0 @ 1.0563184531753136
+2025-03-13 00:46:59,585 - market_maker - INFO - Successfully placed sell order with ID: 56
+2025-03-13 00:46:59,585 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7957
+2025-03-13 00:46:59,691 - market_maker - INFO - === Paper Trading Cycle 32/100 ===
+2025-03-13 00:46:59,699 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:59.699031 ===
+2025-03-13 00:46:59,702 - market_maker - INFO - Balances: USDT=1100.0, USD=9892.208959167343
+2025-03-13 00:46:59,702 - market_maker - INFO - Updated inventory: -0.7951 (base: 1100.0, quote: 9892.208959167343)
+2025-03-13 00:46:59,703 - market_maker - INFO - A-S Model - Mid: 1.026275, Bid: 1.026270, Ask: 1.046275
+2025-03-13 00:46:59,703 - market_maker - INFO - Spread adjustment: inventory=-0.7951, factor=0.8000
+2025-03-13 00:46:59,703 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:59,703 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:59,703 - market_maker - INFO - Prices - Mid: 1.026275, Bid: 1.026274, Ask: 1.054275
+2025-03-13 00:46:59,703 - market_maker - INFO - Cancelling order ID: 56
+2025-03-13 00:46:59,703 - market_maker - INFO - Canceled order 56
+2025-03-13 00:46:59,703 - market_maker - INFO - Placing buy order: 5.0 @ 1.026274
+2025-03-13 00:46:59,703 - market_maker - INFO - Created buy order 57: 5.0 @ 1.0262743423408414
+2025-03-13 00:46:59,703 - market_maker - INFO - Successfully placed buy order with ID: 57
+2025-03-13 00:46:59,703 - market_maker - INFO - Placing sell order: 5.0 @ 1.054275
+2025-03-13 00:46:59,703 - market_maker - INFO - Created sell order 58: 5.0 @ 1.0542750969244423
+2025-03-13 00:46:59,704 - market_maker - INFO - Successfully placed sell order with ID: 58
+2025-03-13 00:46:59,704 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7951
+2025-03-13 00:46:59,809 - market_maker - INFO - === Paper Trading Cycle 33/100 ===
+2025-03-13 00:46:59,817 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:59.817875 ===
+2025-03-13 00:46:59,820 - market_maker - INFO - Balances: USDT=1100.0, USD=9887.077587455638
+2025-03-13 00:46:59,820 - market_maker - INFO - Updated inventory: -0.7940 (base: 1100.0, quote: 9887.077587455638)
+2025-03-13 00:46:59,820 - market_maker - INFO - A-S Model - Mid: 1.032078, Bid: 1.032073, Ask: 1.052078
+2025-03-13 00:46:59,820 - market_maker - INFO - Spread adjustment: inventory=-0.7940, factor=0.8000
+2025-03-13 00:46:59,820 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:59,820 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:59,821 - market_maker - INFO - Prices - Mid: 1.032078, Bid: 1.032077, Ask: 1.060078
+2025-03-13 00:46:59,821 - market_maker - INFO - Cancelling order ID: 57
+2025-03-13 00:46:59,821 - market_maker - INFO - Canceled order 57
+2025-03-13 00:46:59,821 - market_maker - INFO - Cancelling order ID: 58
+2025-03-13 00:46:59,821 - market_maker - INFO - Canceled order 58
+2025-03-13 00:46:59,821 - market_maker - INFO - Placing buy order: 5.0 @ 1.032077
+2025-03-13 00:46:59,821 - market_maker - INFO - Created buy order 59: 5.0 @ 1.0320768200236121
+2025-03-13 00:46:59,821 - market_maker - INFO - Successfully placed buy order with ID: 59
+2025-03-13 00:46:59,821 - market_maker - INFO - Placing sell order: 5.0 @ 1.060078
+2025-03-13 00:46:59,821 - market_maker - INFO - Executed buy order: 5.0 @ 1.0320768200236121
+2025-03-13 00:46:59,821 - market_maker - INFO - Created sell order 60: 5.0 @ 1.0600775745971573
+2025-03-13 00:46:59,821 - market_maker - INFO - Successfully placed sell order with ID: 60
+2025-03-13 00:46:59,821 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7940
+2025-03-13 00:46:59,926 - market_maker - INFO - === Paper Trading Cycle 34/100 ===
+2025-03-13 00:46:59,935 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:46:59.935758 ===
+2025-03-13 00:46:59,938 - market_maker - INFO - Balances: USDT=1105.0, USD=9887.048575067225
+2025-03-13 00:46:59,938 - market_maker - INFO - Updated inventory: -0.7936 (base: 1105.0, quote: 9887.048575067225)
+2025-03-13 00:46:59,938 - market_maker - INFO - A-S Model - Mid: 1.029737, Bid: 1.029732, Ask: 1.049737
+2025-03-13 00:46:59,938 - market_maker - INFO - Spread adjustment: inventory=-0.7936, factor=0.8000
+2025-03-13 00:46:59,939 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:46:59,939 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:46:59,939 - market_maker - INFO - Prices - Mid: 1.029737, Bid: 1.029736, Ask: 1.057737
+2025-03-13 00:46:59,939 - market_maker - INFO - Cancelling order ID: 60
+2025-03-13 00:46:59,939 - market_maker - INFO - Canceled order 60
+2025-03-13 00:46:59,939 - market_maker - INFO - Placing buy order: 5.0 @ 1.029736
+2025-03-13 00:46:59,939 - market_maker - INFO - Created buy order 61: 5.0 @ 1.0297358861906076
+2025-03-13 00:46:59,939 - market_maker - INFO - Successfully placed buy order with ID: 61
+2025-03-13 00:46:59,939 - market_maker - INFO - Placing sell order: 5.0 @ 1.057737
+2025-03-13 00:46:59,939 - market_maker - INFO - Created sell order 62: 5.0 @ 1.0577366407604396
+2025-03-13 00:46:59,939 - market_maker - INFO - Successfully placed sell order with ID: 62
+2025-03-13 00:46:59,939 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7936
+2025-03-13 00:47:00,042 - market_maker - INFO - === Paper Trading Cycle 35/100 ===
+2025-03-13 00:47:00,045 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:00.045442 ===
+2025-03-13 00:47:00,047 - market_maker - INFO - Balances: USDT=1105.0, USD=9881.899895636272
+2025-03-13 00:47:00,047 - market_maker - INFO - Updated inventory: -0.7925 (base: 1105.0, quote: 9881.899895636272)
+2025-03-13 00:47:00,047 - market_maker - INFO - A-S Model - Mid: 1.035399, Bid: 1.035394, Ask: 1.055399
+2025-03-13 00:47:00,047 - market_maker - INFO - Spread adjustment: inventory=-0.7925, factor=0.8000
+2025-03-13 00:47:00,047 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:00,047 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:00,047 - market_maker - INFO - Prices - Mid: 1.035399, Bid: 1.035398, Ask: 1.063399
+2025-03-13 00:47:00,047 - market_maker - INFO - Cancelling order ID: 61
+2025-03-13 00:47:00,047 - market_maker - INFO - Canceled order 61
+2025-03-13 00:47:00,047 - market_maker - INFO - Cancelling order ID: 62
+2025-03-13 00:47:00,047 - market_maker - INFO - Canceled order 62
+2025-03-13 00:47:00,047 - market_maker - INFO - Placing buy order: 5.0 @ 1.035398
+2025-03-13 00:47:00,048 - market_maker - INFO - Created buy order 63: 5.0 @ 1.0353980312568665
+2025-03-13 00:47:00,048 - market_maker - INFO - Successfully placed buy order with ID: 63
+2025-03-13 00:47:00,048 - market_maker - INFO - Placing sell order: 5.0 @ 1.063399
+2025-03-13 00:47:00,048 - market_maker - INFO - Created sell order 64: 5.0 @ 1.0633987858168363
+2025-03-13 00:47:00,048 - market_maker - INFO - Successfully placed sell order with ID: 64
+2025-03-13 00:47:00,048 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7925
+2025-03-13 00:47:00,153 - market_maker - INFO - === Paper Trading Cycle 36/100 ===
+2025-03-13 00:47:00,160 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:00.160389 ===
+2025-03-13 00:47:00,164 - market_maker - INFO - Executed buy order: 5.0 @ 1.0353980312568665
+2025-03-13 00:47:00,164 - market_maker - INFO - Balances: USDT=1110.0, USD=9881.871584910941
+2025-03-13 00:47:00,164 - market_maker - INFO - Updated inventory: -0.7914 (base: 1110.0, quote: 9881.871584910941)
+2025-03-13 00:47:00,164 - market_maker - INFO - A-S Model - Mid: 1.036769, Bid: 1.036764, Ask: 1.056769
+2025-03-13 00:47:00,164 - market_maker - INFO - Spread adjustment: inventory=-0.7914, factor=0.8000
+2025-03-13 00:47:00,164 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:00,164 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:00,164 - market_maker - INFO - Prices - Mid: 1.036769, Bid: 1.036768, Ask: 1.064769
+2025-03-13 00:47:00,164 - market_maker - INFO - Cancelling order ID: 64
+2025-03-13 00:47:00,164 - market_maker - INFO - Canceled order 64
+2025-03-13 00:47:00,164 - market_maker - INFO - Placing buy order: 5.0 @ 1.036768
+2025-03-13 00:47:00,164 - market_maker - INFO - Created buy order 65: 5.0 @ 1.0367682776073823
+2025-03-13 00:47:00,165 - market_maker - INFO - Successfully placed buy order with ID: 65
+2025-03-13 00:47:00,165 - market_maker - INFO - Placing sell order: 5.0 @ 1.064769
+2025-03-13 00:47:00,165 - market_maker - INFO - Created sell order 66: 5.0 @ 1.0647690321577221
+2025-03-13 00:47:00,165 - market_maker - INFO - Successfully placed sell order with ID: 66
+2025-03-13 00:47:00,165 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7914
+2025-03-13 00:47:00,270 - market_maker - INFO - === Paper Trading Cycle 37/100 ===
+2025-03-13 00:47:00,277 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:00.277769 ===
+2025-03-13 00:47:00,281 - market_maker - INFO - Balances: USDT=1110.0, USD=9876.687743522903
+2025-03-13 00:47:00,281 - market_maker - INFO - Updated inventory: -0.7907 (base: 1110.0, quote: 9876.687743522903)
+2025-03-13 00:47:00,281 - market_maker - INFO - A-S Model - Mid: 1.039934, Bid: 1.039929, Ask: 1.059933
+2025-03-13 00:47:00,281 - market_maker - INFO - Spread adjustment: inventory=-0.7907, factor=0.8000
+2025-03-13 00:47:00,281 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:00,281 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:00,281 - market_maker - INFO - Prices - Mid: 1.039934, Bid: 1.039933, Ask: 1.067933
+2025-03-13 00:47:00,281 - market_maker - INFO - Cancelling order ID: 65
+2025-03-13 00:47:00,281 - market_maker - INFO - Canceled order 65
+2025-03-13 00:47:00,281 - market_maker - INFO - Cancelling order ID: 66
+2025-03-13 00:47:00,281 - market_maker - INFO - Canceled order 66
+2025-03-13 00:47:00,281 - market_maker - INFO - Placing buy order: 5.0 @ 1.039933
+2025-03-13 00:47:00,281 - market_maker - INFO - Created buy order 67: 5.0 @ 1.0399326197981837
+2025-03-13 00:47:00,281 - market_maker - INFO - Successfully placed buy order with ID: 67
+2025-03-13 00:47:00,282 - market_maker - INFO - Placing sell order: 5.0 @ 1.067933
+2025-03-13 00:47:00,282 - market_maker - INFO - Created sell order 68: 5.0 @ 1.0679333743426145
+2025-03-13 00:47:00,282 - market_maker - INFO - Successfully placed sell order with ID: 68
+2025-03-13 00:47:00,282 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7907
+2025-03-13 00:47:00,387 - market_maker - INFO - === Paper Trading Cycle 38/100 ===
+2025-03-13 00:47:00,397 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:00.397831 ===
+2025-03-13 00:47:00,400 - market_maker - INFO - Executed buy order: 5.0 @ 1.0399326197981837
+2025-03-13 00:47:00,400 - market_maker - INFO - Balances: USDT=1115.0, USD=9876.67192181195
+2025-03-13 00:47:00,400 - market_maker - INFO - Updated inventory: -0.7898 (base: 1115.0, quote: 9876.67192181195)
+2025-03-13 00:47:00,400 - market_maker - INFO - A-S Model - Mid: 1.040404, Bid: 1.040399, Ask: 1.060404
+2025-03-13 00:47:00,400 - market_maker - INFO - Spread adjustment: inventory=-0.7898, factor=0.8000
+2025-03-13 00:47:00,400 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:00,400 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:00,400 - market_maker - INFO - Prices - Mid: 1.040404, Bid: 1.040403, Ask: 1.068404
+2025-03-13 00:47:00,400 - market_maker - INFO - Placing buy order: 5.0 @ 1.040403
+2025-03-13 00:47:00,401 - market_maker - INFO - Created buy order 69: 5.0 @ 1.0404034406047669
+2025-03-13 00:47:00,401 - market_maker - INFO - Successfully placed buy order with ID: 69
+2025-03-13 00:47:00,401 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7898
+2025-03-13 00:47:00,506 - market_maker - INFO - === Paper Trading Cycle 39/100 ===
+2025-03-13 00:47:00,514 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:00.514310 ===
+2025-03-13 00:47:00,516 - market_maker - INFO - Executed buy order: 5.0 @ 1.0404034406047669
+2025-03-13 00:47:00,516 - market_maker - INFO - Balances: USDT=1120.0, USD=9871.469904608926
+2025-03-13 00:47:00,516 - market_maker - INFO - Updated inventory: -0.7897 (base: 1120.0, quote: 9871.469904608926)
+2025-03-13 00:47:00,516 - market_maker - INFO - A-S Model - Mid: 1.035534, Bid: 1.035529, Ask: 1.055534
+2025-03-13 00:47:00,516 - market_maker - INFO - Spread adjustment: inventory=-0.7897, factor=0.8000
+2025-03-13 00:47:00,516 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:00,516 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:00,516 - market_maker - INFO - Prices - Mid: 1.035534, Bid: 1.035533, Ask: 1.063534
+2025-03-13 00:47:00,516 - market_maker - INFO - Cancelling order ID: 68
+2025-03-13 00:47:00,516 - market_maker - INFO - Canceled order 68
+2025-03-13 00:47:00,516 - market_maker - INFO - Placing buy order: 5.0 @ 1.035533
+2025-03-13 00:47:00,516 - market_maker - INFO - Created buy order 70: 5.0 @ 1.0355332171989038
+2025-03-13 00:47:00,516 - market_maker - INFO - Successfully placed buy order with ID: 70
+2025-03-13 00:47:00,516 - market_maker - INFO - Placing sell order: 5.0 @ 1.063534
+2025-03-13 00:47:00,516 - market_maker - INFO - Created sell order 71: 5.0 @ 1.0635339717346117
+2025-03-13 00:47:00,516 - market_maker - INFO - Successfully placed sell order with ID: 71
+2025-03-13 00:47:00,517 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7897
+2025-03-13 00:47:00,622 - market_maker - INFO - === Paper Trading Cycle 40/100 ===
+2025-03-13 00:47:00,631 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:00.631414 ===
+2025-03-13 00:47:00,634 - market_maker - INFO - Executed buy order: 5.0 @ 1.0355332171989038
+2025-03-13 00:47:00,634 - market_maker - INFO - Balances: USDT=1125.0, USD=9866.292238522932
+2025-03-13 00:47:00,634 - market_maker - INFO - Updated inventory: -0.7888 (base: 1125.0, quote: 9866.292238522932)
+2025-03-13 00:47:00,634 - market_maker - INFO - A-S Model - Mid: 1.035633, Bid: 1.035628, Ask: 1.055633
+2025-03-13 00:47:00,634 - market_maker - INFO - Spread adjustment: inventory=-0.7888, factor=0.8000
+2025-03-13 00:47:00,634 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:00,635 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:00,635 - market_maker - INFO - Prices - Mid: 1.035633, Bid: 1.035632, Ask: 1.063633
+2025-03-13 00:47:00,635 - market_maker - INFO - Placing buy order: 5.0 @ 1.035632
+2025-03-13 00:47:00,635 - market_maker - INFO - Created buy order 72: 5.0 @ 1.035631793603273
+2025-03-13 00:47:00,635 - market_maker - INFO - Successfully placed buy order with ID: 72
+2025-03-13 00:47:00,635 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7888
+2025-03-13 00:47:00,740 - market_maker - INFO - === Paper Trading Cycle 41/100 ===
+2025-03-13 00:47:00,749 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:47:00,749 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:47:00,749 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:00.749680 ===
+2025-03-13 00:47:00,752 - market_maker - INFO - Balances: USDT=1125.0, USD=9861.114079554916
+2025-03-13 00:47:00,752 - market_maker - INFO - Updated inventory: -0.7885 (base: 1125.0, quote: 9861.114079554916)
+2025-03-13 00:47:00,752 - market_maker - INFO - A-S Model - Mid: 1.036621, Bid: 1.036616, Ask: 1.056621
+2025-03-13 00:47:00,752 - market_maker - INFO - Spread adjustment: inventory=-0.7885, factor=0.8000
+2025-03-13 00:47:00,753 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:00,753 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:00,753 - market_maker - INFO - Prices - Mid: 1.036621, Bid: 1.036620, Ask: 1.064621
+2025-03-13 00:47:00,753 - market_maker - INFO - Cancelling order ID: 72
+2025-03-13 00:47:00,753 - market_maker - INFO - Canceled order 72
+2025-03-13 00:47:00,753 - market_maker - INFO - Cancelling order ID: 71
+2025-03-13 00:47:00,753 - market_maker - INFO - Canceled order 71
+2025-03-13 00:47:00,753 - market_maker - INFO - Placing buy order: 5.0 @ 1.036620
+2025-03-13 00:47:00,753 - market_maker - INFO - Created buy order 73: 5.0 @ 1.0366203470198474
+2025-03-13 00:47:00,753 - market_maker - INFO - Successfully placed buy order with ID: 73
+2025-03-13 00:47:00,753 - market_maker - INFO - Placing sell order: 5.0 @ 1.064621
+2025-03-13 00:47:00,753 - market_maker - INFO - Executed buy order: 5.0 @ 1.0366203470198474
+2025-03-13 00:47:00,753 - market_maker - INFO - Created sell order 74: 5.0 @ 1.0646211015446398
+2025-03-13 00:47:00,753 - market_maker - INFO - Successfully placed sell order with ID: 74
+2025-03-13 00:47:00,753 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7885
+2025-03-13 00:47:00,859 - market_maker - INFO - === Paper Trading Cycle 42/100 ===
+2025-03-13 00:47:00,866 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:00.866665 ===
+2025-03-13 00:47:00,868 - market_maker - INFO - Balances: USDT=1130.0, USD=9861.109136787833
+2025-03-13 00:47:00,869 - market_maker - INFO - Updated inventory: -0.7878 (base: 1130.0, quote: 9861.109136787833)
+2025-03-13 00:47:00,869 - market_maker - INFO - A-S Model - Mid: 1.035615, Bid: 1.035609, Ask: 1.055614
+2025-03-13 00:47:00,869 - market_maker - INFO - Spread adjustment: inventory=-0.7878, factor=0.8000
+2025-03-13 00:47:00,869 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:00,869 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:00,869 - market_maker - INFO - Prices - Mid: 1.035615, Bid: 1.035613, Ask: 1.063614
+2025-03-13 00:47:00,869 - market_maker - INFO - Cancelling order ID: 74
+2025-03-13 00:47:00,869 - market_maker - INFO - Canceled order 74
+2025-03-13 00:47:00,869 - market_maker - INFO - Placing buy order: 5.0 @ 1.035613
+2025-03-13 00:47:00,869 - market_maker - INFO - Created buy order 75: 5.0 @ 1.035613496750632
+2025-03-13 00:47:00,869 - market_maker - INFO - Successfully placed buy order with ID: 75
+2025-03-13 00:47:00,869 - market_maker - INFO - Placing sell order: 5.0 @ 1.063614
+2025-03-13 00:47:00,869 - market_maker - INFO - Created sell order 76: 5.0 @ 1.0636142512696365
+2025-03-13 00:47:00,869 - market_maker - INFO - Successfully placed sell order with ID: 76
+2025-03-13 00:47:00,869 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7878
+2025-03-13 00:47:00,974 - market_maker - INFO - === Paper Trading Cycle 43/100 ===
+2025-03-13 00:47:00,977 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:00.977204 ===
+2025-03-13 00:47:00,978 - market_maker - INFO - Balances: USDT=1130.0, USD=9855.931069304079
+2025-03-13 00:47:00,978 - market_maker - INFO - Updated inventory: -0.7868 (base: 1130.0, quote: 9855.931069304079)
+2025-03-13 00:47:00,978 - market_maker - INFO - A-S Model - Mid: 1.040909, Bid: 1.040904, Ask: 1.060909
+2025-03-13 00:47:00,978 - market_maker - INFO - Spread adjustment: inventory=-0.7868, factor=0.8000
+2025-03-13 00:47:00,978 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:00,978 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:00,978 - market_maker - INFO - Prices - Mid: 1.040909, Bid: 1.040908, Ask: 1.068909
+2025-03-13 00:47:00,978 - market_maker - INFO - Cancelling order ID: 75
+2025-03-13 00:47:00,978 - market_maker - INFO - Canceled order 75
+2025-03-13 00:47:00,978 - market_maker - INFO - Cancelling order ID: 76
+2025-03-13 00:47:00,978 - market_maker - INFO - Canceled order 76
+2025-03-13 00:47:00,978 - market_maker - INFO - Placing buy order: 5.0 @ 1.040908
+2025-03-13 00:47:00,978 - market_maker - INFO - Created buy order 77: 5.0 @ 1.0409078981504531
+2025-03-13 00:47:00,978 - market_maker - INFO - Successfully placed buy order with ID: 77
+2025-03-13 00:47:00,978 - market_maker - INFO - Placing sell order: 5.0 @ 1.068909
+2025-03-13 00:47:00,978 - market_maker - INFO - Executed buy order: 5.0 @ 1.0409078981504531
+2025-03-13 00:47:00,978 - market_maker - INFO - Created sell order 78: 5.0 @ 1.0689086526600293
+2025-03-13 00:47:00,978 - market_maker - INFO - Successfully placed sell order with ID: 78
+2025-03-13 00:47:00,978 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7868
+2025-03-13 00:47:01,084 - market_maker - INFO - === Paper Trading Cycle 44/100 ===
+2025-03-13 00:47:01,086 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:01.086631 ===
+2025-03-13 00:47:01,088 - market_maker - INFO - Balances: USDT=1135.0, USD=9855.90459729708
+2025-03-13 00:47:01,088 - market_maker - INFO - Updated inventory: -0.7862 (base: 1135.0, quote: 9855.90459729708)
+2025-03-13 00:47:01,088 - market_maker - INFO - A-S Model - Mid: 1.039549, Bid: 1.039544, Ask: 1.059548
+2025-03-13 00:47:01,088 - market_maker - INFO - Spread adjustment: inventory=-0.7862, factor=0.8000
+2025-03-13 00:47:01,088 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:01,088 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:01,088 - market_maker - INFO - Prices - Mid: 1.039549, Bid: 1.039548, Ask: 1.067548
+2025-03-13 00:47:01,088 - market_maker - INFO - Cancelling order ID: 78
+2025-03-13 00:47:01,088 - market_maker - INFO - Canceled order 78
+2025-03-13 00:47:01,088 - market_maker - INFO - Placing buy order: 5.0 @ 1.039548
+2025-03-13 00:47:01,088 - market_maker - INFO - Created buy order 79: 5.0 @ 1.0395476220044797
+2025-03-13 00:47:01,088 - market_maker - INFO - Successfully placed buy order with ID: 79
+2025-03-13 00:47:01,088 - market_maker - INFO - Placing sell order: 5.0 @ 1.067548
+2025-03-13 00:47:01,088 - market_maker - INFO - Created sell order 80: 5.0 @ 1.0675483765088276
+2025-03-13 00:47:01,088 - market_maker - INFO - Successfully placed sell order with ID: 80
+2025-03-13 00:47:01,088 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7862
+2025-03-13 00:47:01,189 - market_maker - INFO - === Paper Trading Cycle 45/100 ===
+2025-03-13 00:47:01,197 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:01.197592 ===
+2025-03-13 00:47:01,201 - market_maker - INFO - Balances: USDT=1135.0, USD=9850.706859187057
+2025-03-13 00:47:01,201 - market_maker - INFO - Updated inventory: -0.7854 (base: 1135.0, quote: 9850.706859187057)
+2025-03-13 00:47:01,201 - market_maker - INFO - A-S Model - Mid: 1.043329, Bid: 1.043324, Ask: 1.063329
+2025-03-13 00:47:01,201 - market_maker - INFO - Spread adjustment: inventory=-0.7854, factor=0.8000
+2025-03-13 00:47:01,201 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:01,201 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:01,201 - market_maker - INFO - Prices - Mid: 1.043329, Bid: 1.043328, Ask: 1.071328
+2025-03-13 00:47:01,201 - market_maker - INFO - Cancelling order ID: 79
+2025-03-13 00:47:01,201 - market_maker - INFO - Canceled order 79
+2025-03-13 00:47:01,201 - market_maker - INFO - Cancelling order ID: 80
+2025-03-13 00:47:01,201 - market_maker - INFO - Canceled order 80
+2025-03-13 00:47:01,201 - market_maker - INFO - Placing buy order: 5.0 @ 1.043328
+2025-03-13 00:47:01,202 - market_maker - INFO - Created buy order 81: 5.0 @ 1.043327733596914
+2025-03-13 00:47:01,202 - market_maker - INFO - Successfully placed buy order with ID: 81
+2025-03-13 00:47:01,202 - market_maker - INFO - Placing sell order: 5.0 @ 1.071328
+2025-03-13 00:47:01,202 - market_maker - INFO - Created sell order 82: 5.0 @ 1.0713284880942562
+2025-03-13 00:47:01,202 - market_maker - INFO - Successfully placed sell order with ID: 82
+2025-03-13 00:47:01,202 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7854
+2025-03-13 00:47:01,307 - market_maker - INFO - === Paper Trading Cycle 46/100 ===
+2025-03-13 00:47:01,316 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:01.316136 ===
+2025-03-13 00:47:01,319 - market_maker - INFO - Executed buy order: 5.0 @ 1.043327733596914
+2025-03-13 00:47:01,319 - market_maker - INFO - Balances: USDT=1140.0, USD=9850.687958629096
+2025-03-13 00:47:01,319 - market_maker - INFO - Updated inventory: -0.7846 (base: 1140.0, quote: 9850.687958629096)
+2025-03-13 00:47:01,319 - market_maker - INFO - A-S Model - Mid: 1.043061, Bid: 1.043056, Ask: 1.063060
+2025-03-13 00:47:01,319 - market_maker - INFO - Spread adjustment: inventory=-0.7846, factor=0.8000
+2025-03-13 00:47:01,319 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:01,319 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:01,319 - market_maker - INFO - Prices - Mid: 1.043061, Bid: 1.043060, Ask: 1.071060
+2025-03-13 00:47:01,319 - market_maker - INFO - Placing buy order: 5.0 @ 1.043060
+2025-03-13 00:47:01,319 - market_maker - INFO - Created buy order 83: 5.0 @ 1.043059659536059
+2025-03-13 00:47:01,319 - market_maker - INFO - Successfully placed buy order with ID: 83
+2025-03-13 00:47:01,319 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7846
+2025-03-13 00:47:01,425 - market_maker - INFO - === Paper Trading Cycle 47/100 ===
+2025-03-13 00:47:01,431 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:01.431831 ===
+2025-03-13 00:47:01,434 - market_maker - INFO - Balances: USDT=1140.0, USD=9845.472660331416
+2025-03-13 00:47:01,434 - market_maker - INFO - Updated inventory: -0.7842 (base: 1140.0, quote: 9845.472660331416)
+2025-03-13 00:47:01,434 - market_maker - INFO - A-S Model - Mid: 1.044363, Bid: 1.044358, Ask: 1.064362
+2025-03-13 00:47:01,434 - market_maker - INFO - Spread adjustment: inventory=-0.7842, factor=0.8000
+2025-03-13 00:47:01,434 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:01,434 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:01,434 - market_maker - INFO - Prices - Mid: 1.044363, Bid: 1.044362, Ask: 1.072362
+2025-03-13 00:47:01,434 - market_maker - INFO - Cancelling order ID: 83
+2025-03-13 00:47:01,434 - market_maker - INFO - Canceled order 83
+2025-03-13 00:47:01,434 - market_maker - INFO - Cancelling order ID: 82
+2025-03-13 00:47:01,434 - market_maker - INFO - Canceled order 82
+2025-03-13 00:47:01,434 - market_maker - INFO - Placing buy order: 5.0 @ 1.044362
+2025-03-13 00:47:01,435 - market_maker - INFO - Created buy order 84: 5.0 @ 1.0443616078301718
+2025-03-13 00:47:01,435 - market_maker - INFO - Successfully placed buy order with ID: 84
+2025-03-13 00:47:01,435 - market_maker - INFO - Placing sell order: 5.0 @ 1.072362
+2025-03-13 00:47:01,435 - market_maker - INFO - Executed buy order: 5.0 @ 1.0443616078301718
+2025-03-13 00:47:01,435 - market_maker - INFO - Created sell order 85: 5.0 @ 1.0723623623175087
+2025-03-13 00:47:01,435 - market_maker - INFO - Successfully placed sell order with ID: 85
+2025-03-13 00:47:01,435 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7842
+2025-03-13 00:47:01,541 - market_maker - INFO - === Paper Trading Cycle 48/100 ===
+2025-03-13 00:47:01,548 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:01.548555 ===
+2025-03-13 00:47:01,551 - market_maker - INFO - Balances: USDT=1145.0, USD=9845.466150589946
+2025-03-13 00:47:01,551 - market_maker - INFO - Updated inventory: -0.7830 (base: 1145.0, quote: 9845.466150589946)
+2025-03-13 00:47:01,551 - market_maker - INFO - A-S Model - Mid: 1.046707, Bid: 1.046702, Ask: 1.066707
+2025-03-13 00:47:01,551 - market_maker - INFO - Spread adjustment: inventory=-0.7830, factor=0.8000
+2025-03-13 00:47:01,552 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:01,552 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:01,552 - market_maker - INFO - Prices - Mid: 1.046707, Bid: 1.046706, Ask: 1.074707
+2025-03-13 00:47:01,552 - market_maker - INFO - Cancelling order ID: 85
+2025-03-13 00:47:01,552 - market_maker - INFO - Canceled order 85
+2025-03-13 00:47:01,552 - market_maker - INFO - Placing buy order: 5.0 @ 1.046706
+2025-03-13 00:47:01,552 - market_maker - INFO - Created buy order 86: 5.0 @ 1.0467060503207437
+2025-03-13 00:47:01,552 - market_maker - INFO - Successfully placed buy order with ID: 86
+2025-03-13 00:47:01,552 - market_maker - INFO - Placing sell order: 5.0 @ 1.074707
+2025-03-13 00:47:01,552 - market_maker - INFO - Created sell order 87: 5.0 @ 1.0747068047968427
+2025-03-13 00:47:01,552 - market_maker - INFO - Successfully placed sell order with ID: 87
+2025-03-13 00:47:01,552 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7830
+2025-03-13 00:47:01,657 - market_maker - INFO - === Paper Trading Cycle 49/100 ===
+2025-03-13 00:47:01,666 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:01.666821 ===
+2025-03-13 00:47:01,669 - market_maker - INFO - Balances: USDT=1145.0, USD=9840.232620338342
+2025-03-13 00:47:01,670 - market_maker - INFO - Updated inventory: -0.7815 (base: 1145.0, quote: 9840.232620338342)
+2025-03-13 00:47:01,670 - market_maker - INFO - A-S Model - Mid: 1.054197, Bid: 1.054192, Ask: 1.074197
+2025-03-13 00:47:01,670 - market_maker - INFO - Spread adjustment: inventory=-0.7815, factor=0.8000
+2025-03-13 00:47:01,670 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:01,670 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:01,670 - market_maker - INFO - Prices - Mid: 1.054197, Bid: 1.054196, Ask: 1.082197
+2025-03-13 00:47:01,670 - market_maker - INFO - Cancelling order ID: 86
+2025-03-13 00:47:01,670 - market_maker - INFO - Canceled order 86
+2025-03-13 00:47:01,670 - market_maker - INFO - Cancelling order ID: 87
+2025-03-13 00:47:01,670 - market_maker - INFO - Canceled order 87
+2025-03-13 00:47:01,670 - market_maker - INFO - Placing buy order: 5.0 @ 1.054196
+2025-03-13 00:47:01,671 - market_maker - INFO - Created buy order 88: 5.0 @ 1.0541958492418393
+2025-03-13 00:47:01,671 - market_maker - INFO - Successfully placed buy order with ID: 88
+2025-03-13 00:47:01,671 - market_maker - INFO - Placing sell order: 5.0 @ 1.082197
+2025-03-13 00:47:01,671 - market_maker - INFO - Created sell order 89: 5.0 @ 1.0821966037048687
+2025-03-13 00:47:01,671 - market_maker - INFO - Successfully placed sell order with ID: 89
+2025-03-13 00:47:01,671 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7815
+2025-03-13 00:47:01,776 - market_maker - INFO - === Paper Trading Cycle 50/100 ===
+2025-03-13 00:47:01,785 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:01.785272 ===
+2025-03-13 00:47:01,788 - market_maker - INFO - Balances: USDT=1145.0, USD=9840.195171343737
+2025-03-13 00:47:01,789 - market_maker - INFO - Updated inventory: -0.7806 (base: 1145.0, quote: 9840.195171343737)
+2025-03-13 00:47:01,789 - market_maker - INFO - A-S Model - Mid: 1.058959, Bid: 1.058954, Ask: 1.078958
+2025-03-13 00:47:01,789 - market_maker - INFO - Spread adjustment: inventory=-0.7806, factor=0.8000
+2025-03-13 00:47:01,789 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:01,789 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:01,789 - market_maker - INFO - Prices - Mid: 1.058959, Bid: 1.058958, Ask: 1.086958
+2025-03-13 00:47:01,789 - market_maker - INFO - Cancelling order ID: 88
+2025-03-13 00:47:01,789 - market_maker - INFO - Canceled order 88
+2025-03-13 00:47:01,789 - market_maker - INFO - Cancelling order ID: 89
+2025-03-13 00:47:01,789 - market_maker - INFO - Canceled order 89
+2025-03-13 00:47:01,789 - market_maker - INFO - Placing buy order: 5.0 @ 1.058958
+2025-03-13 00:47:01,789 - market_maker - INFO - Created buy order 90: 5.0 @ 1.0589576078465375
+2025-03-13 00:47:01,789 - market_maker - INFO - Successfully placed buy order with ID: 90
+2025-03-13 00:47:01,789 - market_maker - INFO - Placing sell order: 5.0 @ 1.086958
+2025-03-13 00:47:01,789 - market_maker - INFO - Created sell order 91: 5.0 @ 1.0869583623018424
+2025-03-13 00:47:01,790 - market_maker - INFO - Successfully placed sell order with ID: 91
+2025-03-13 00:47:01,790 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7806
+2025-03-13 00:47:01,895 - market_maker - INFO - === Paper Trading Cycle 51/100 ===
+2025-03-13 00:47:01,903 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:47:01,903 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:47:01,903 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:01.903670 ===
+2025-03-13 00:47:01,906 - market_maker - INFO - Balances: USDT=1145.0, USD=9840.171362550713
+2025-03-13 00:47:01,907 - market_maker - INFO - Updated inventory: -0.7782 (base: 1145.0, quote: 9840.171362550713)
+2025-03-13 00:47:01,907 - market_maker - INFO - A-S Model - Mid: 1.071936, Bid: 1.071931, Ask: 1.091936
+2025-03-13 00:47:01,907 - market_maker - INFO - Spread adjustment: inventory=-0.7782, factor=0.8000
+2025-03-13 00:47:01,907 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:01,907 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:01,907 - market_maker - INFO - Prices - Mid: 1.071936, Bid: 1.071935, Ask: 1.099936
+2025-03-13 00:47:01,907 - market_maker - INFO - Cancelling order ID: 90
+2025-03-13 00:47:01,907 - market_maker - INFO - Canceled order 90
+2025-03-13 00:47:01,907 - market_maker - INFO - Cancelling order ID: 91
+2025-03-13 00:47:01,907 - market_maker - INFO - Canceled order 91
+2025-03-13 00:47:01,907 - market_maker - INFO - Placing buy order: 5.0 @ 1.071935
+2025-03-13 00:47:01,907 - market_maker - INFO - Created buy order 92: 5.0 @ 1.0719353949509447
+2025-03-13 00:47:01,907 - market_maker - INFO - Successfully placed buy order with ID: 92
+2025-03-13 00:47:01,907 - market_maker - INFO - Placing sell order: 5.0 @ 1.099936
+2025-03-13 00:47:01,907 - market_maker - INFO - Created sell order 93: 5.0 @ 1.099936149385271
+2025-03-13 00:47:01,908 - market_maker - INFO - Successfully placed sell order with ID: 93
+2025-03-13 00:47:01,908 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7782
+2025-03-13 00:47:02,013 - market_maker - INFO - === Paper Trading Cycle 52/100 ===
+2025-03-13 00:47:02,020 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:02.020641 ===
+2025-03-13 00:47:02,024 - market_maker - INFO - Balances: USDT=1145.0, USD=9840.106473615191
+2025-03-13 00:47:02,024 - market_maker - INFO - Updated inventory: -0.7770 (base: 1145.0, quote: 9840.106473615191)
+2025-03-13 00:47:02,024 - market_maker - INFO - A-S Model - Mid: 1.078569, Bid: 1.078564, Ask: 1.098569
+2025-03-13 00:47:02,024 - market_maker - INFO - Spread adjustment: inventory=-0.7770, factor=0.8000
+2025-03-13 00:47:02,024 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:02,024 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:02,024 - market_maker - INFO - Prices - Mid: 1.078569, Bid: 1.078568, Ask: 1.106569
+2025-03-13 00:47:02,024 - market_maker - INFO - Cancelling order ID: 92
+2025-03-13 00:47:02,024 - market_maker - INFO - Canceled order 92
+2025-03-13 00:47:02,024 - market_maker - INFO - Cancelling order ID: 93
+2025-03-13 00:47:02,025 - market_maker - INFO - Canceled order 93
+2025-03-13 00:47:02,025 - market_maker - INFO - Placing buy order: 5.0 @ 1.078568
+2025-03-13 00:47:02,025 - market_maker - INFO - Created buy order 94: 5.0 @ 1.0785678477914247
+2025-03-13 00:47:02,025 - market_maker - INFO - Successfully placed buy order with ID: 94
+2025-03-13 00:47:02,025 - market_maker - INFO - Placing sell order: 5.0 @ 1.106569
+2025-03-13 00:47:02,025 - market_maker - INFO - Executed buy order: 5.0 @ 1.0785678477914247
+2025-03-13 00:47:02,025 - market_maker - INFO - Created sell order 95: 5.0 @ 1.106568602215055
+2025-03-13 00:47:02,025 - market_maker - INFO - Successfully placed sell order with ID: 95
+2025-03-13 00:47:02,025 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7770
+2025-03-13 00:47:02,130 - market_maker - INFO - === Paper Trading Cycle 53/100 ===
+2025-03-13 00:47:02,137 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:02.137460 ===
+2025-03-13 00:47:02,140 - market_maker - INFO - Balances: USDT=1150.0, USD=9840.073311350989
+2025-03-13 00:47:02,140 - market_maker - INFO - Updated inventory: -0.7764 (base: 1150.0, quote: 9840.073311350989)
+2025-03-13 00:47:02,140 - market_maker - INFO - A-S Model - Mid: 1.077257, Bid: 1.077252, Ask: 1.097257
+2025-03-13 00:47:02,141 - market_maker - INFO - Spread adjustment: inventory=-0.7764, factor=0.8000
+2025-03-13 00:47:02,141 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:02,141 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:02,141 - market_maker - INFO - Prices - Mid: 1.077257, Bid: 1.077256, Ask: 1.105257
+2025-03-13 00:47:02,141 - market_maker - INFO - Cancelling order ID: 95
+2025-03-13 00:47:02,141 - market_maker - INFO - Canceled order 95
+2025-03-13 00:47:02,141 - market_maker - INFO - Placing buy order: 5.0 @ 1.077256
+2025-03-13 00:47:02,141 - market_maker - INFO - Created buy order 96: 5.0 @ 1.077256460021792
+2025-03-13 00:47:02,141 - market_maker - INFO - Successfully placed buy order with ID: 96
+2025-03-13 00:47:02,141 - market_maker - INFO - Placing sell order: 5.0 @ 1.105257
+2025-03-13 00:47:02,141 - market_maker - INFO - Executed buy order: 5.0 @ 1.077256460021792
+2025-03-13 00:47:02,141 - market_maker - INFO - Created sell order 97: 5.0 @ 1.1052572144399595
+2025-03-13 00:47:02,141 - market_maker - INFO - Successfully placed sell order with ID: 97
+2025-03-13 00:47:02,141 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7764
+2025-03-13 00:47:02,247 - market_maker - INFO - === Paper Trading Cycle 54/100 ===
+2025-03-13 00:47:02,255 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:02.255716 ===
+2025-03-13 00:47:02,259 - market_maker - INFO - Balances: USDT=1155.0, USD=9834.68702905088
+2025-03-13 00:47:02,259 - market_maker - INFO - Updated inventory: -0.7759 (base: 1155.0, quote: 9834.68702905088)
+2025-03-13 00:47:02,259 - market_maker - INFO - A-S Model - Mid: 1.074320, Bid: 1.074315, Ask: 1.094320
+2025-03-13 00:47:02,259 - market_maker - INFO - Spread adjustment: inventory=-0.7759, factor=0.8000
+2025-03-13 00:47:02,259 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:02,259 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:02,259 - market_maker - INFO - Prices - Mid: 1.074320, Bid: 1.074319, Ask: 1.102320
+2025-03-13 00:47:02,259 - market_maker - INFO - Cancelling order ID: 97
+2025-03-13 00:47:02,259 - market_maker - INFO - Canceled order 97
+2025-03-13 00:47:02,259 - market_maker - INFO - Placing buy order: 5.0 @ 1.074319
+2025-03-13 00:47:02,259 - market_maker - INFO - Created buy order 98: 5.0 @ 1.0743194294994578
+2025-03-13 00:47:02,259 - market_maker - INFO - Successfully placed buy order with ID: 98
+2025-03-13 00:47:02,259 - market_maker - INFO - Placing sell order: 5.0 @ 1.102320
+2025-03-13 00:47:02,259 - market_maker - INFO - Created sell order 99: 5.0 @ 1.1023201839138734
+2025-03-13 00:47:02,260 - market_maker - INFO - Successfully placed sell order with ID: 99
+2025-03-13 00:47:02,260 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7759
+2025-03-13 00:47:02,365 - market_maker - INFO - === Paper Trading Cycle 55/100 ===
+2025-03-13 00:47:02,372 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:02.372281 ===
+2025-03-13 00:47:02,374 - market_maker - INFO - Balances: USDT=1155.0, USD=9829.315431903382
+2025-03-13 00:47:02,375 - market_maker - INFO - Updated inventory: -0.7756 (base: 1155.0, quote: 9829.315431903382)
+2025-03-13 00:47:02,375 - market_maker - INFO - A-S Model - Mid: 1.075421, Bid: 1.075416, Ask: 1.095421
+2025-03-13 00:47:02,375 - market_maker - INFO - Spread adjustment: inventory=-0.7756, factor=0.8000
+2025-03-13 00:47:02,375 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:02,375 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:02,375 - market_maker - INFO - Prices - Mid: 1.075421, Bid: 1.075420, Ask: 1.103421
+2025-03-13 00:47:02,375 - market_maker - INFO - Cancelling order ID: 98
+2025-03-13 00:47:02,375 - market_maker - INFO - Canceled order 98
+2025-03-13 00:47:02,375 - market_maker - INFO - Cancelling order ID: 99
+2025-03-13 00:47:02,375 - market_maker - INFO - Canceled order 99
+2025-03-13 00:47:02,375 - market_maker - INFO - Placing buy order: 5.0 @ 1.075420
+2025-03-13 00:47:02,376 - market_maker - INFO - Created buy order 100: 5.0 @ 1.0754198957112415
+2025-03-13 00:47:02,376 - market_maker - INFO - Successfully placed buy order with ID: 100
+2025-03-13 00:47:02,376 - market_maker - INFO - Placing sell order: 5.0 @ 1.103421
+2025-03-13 00:47:02,376 - market_maker - INFO - Executed buy order: 5.0 @ 1.0754198957112415
+2025-03-13 00:47:02,376 - market_maker - INFO - Created sell order 101: 5.0 @ 1.103420650122921
+2025-03-13 00:47:02,376 - market_maker - INFO - Successfully placed sell order with ID: 101
+2025-03-13 00:47:02,376 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7756
+2025-03-13 00:47:02,481 - market_maker - INFO - === Paper Trading Cycle 56/100 ===
+2025-03-13 00:47:02,490 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:02.490153 ===
+2025-03-13 00:47:02,492 - market_maker - INFO - Balances: USDT=1160.0, USD=9829.309929572324
+2025-03-13 00:47:02,492 - market_maker - INFO - Updated inventory: -0.7738 (base: 1160.0, quote: 9829.309929572324)
+2025-03-13 00:47:02,492 - market_maker - INFO - A-S Model - Mid: 1.080470, Bid: 1.080465, Ask: 1.100470
+2025-03-13 00:47:02,492 - market_maker - INFO - Spread adjustment: inventory=-0.7738, factor=0.8000
+2025-03-13 00:47:02,492 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:02,492 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:02,492 - market_maker - INFO - Prices - Mid: 1.080470, Bid: 1.080469, Ask: 1.108470
+2025-03-13 00:47:02,492 - market_maker - INFO - Cancelling order ID: 101
+2025-03-13 00:47:02,492 - market_maker - INFO - Canceled order 101
+2025-03-13 00:47:02,492 - market_maker - INFO - Placing buy order: 5.0 @ 1.080469
+2025-03-13 00:47:02,492 - market_maker - INFO - Created buy order 102: 5.0 @ 1.080468827135687
+2025-03-13 00:47:02,492 - market_maker - INFO - Successfully placed buy order with ID: 102
+2025-03-13 00:47:02,493 - market_maker - INFO - Placing sell order: 5.0 @ 1.108470
+2025-03-13 00:47:02,493 - market_maker - INFO - Executed buy order: 5.0 @ 1.080468827135687
+2025-03-13 00:47:02,493 - market_maker - INFO - Created sell order 103: 5.0 @ 1.108469581531623
+2025-03-13 00:47:02,493 - market_maker - INFO - Successfully placed sell order with ID: 103
+2025-03-13 00:47:02,493 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7738
+2025-03-13 00:47:02,598 - market_maker - INFO - === Paper Trading Cycle 57/100 ===
+2025-03-13 00:47:02,605 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:02.605673 ===
+2025-03-13 00:47:02,608 - market_maker - INFO - Balances: USDT=1165.0, USD=9823.907585436646
+2025-03-13 00:47:02,609 - market_maker - INFO - Updated inventory: -0.7725 (base: 1165.0, quote: 9823.907585436646)
+2025-03-13 00:47:02,609 - market_maker - INFO - A-S Model - Mid: 1.082272, Bid: 1.082267, Ask: 1.102272
+2025-03-13 00:47:02,609 - market_maker - INFO - Spread adjustment: inventory=-0.7725, factor=0.8000
+2025-03-13 00:47:02,609 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:02,609 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:02,609 - market_maker - INFO - Prices - Mid: 1.082272, Bid: 1.082271, Ask: 1.110272
+2025-03-13 00:47:02,609 - market_maker - INFO - Cancelling order ID: 103
+2025-03-13 00:47:02,609 - market_maker - INFO - Canceled order 103
+2025-03-13 00:47:02,609 - market_maker - INFO - Placing buy order: 5.0 @ 1.082271
+2025-03-13 00:47:02,609 - market_maker - INFO - Created buy order 104: 5.0 @ 1.082271195509807
+2025-03-13 00:47:02,609 - market_maker - INFO - Successfully placed buy order with ID: 104
+2025-03-13 00:47:02,609 - market_maker - INFO - Placing sell order: 5.0 @ 1.110272
+2025-03-13 00:47:02,609 - market_maker - INFO - Executed buy order: 5.0 @ 1.082271195509807
+2025-03-13 00:47:02,609 - market_maker - INFO - Created sell order 105: 5.0 @ 1.1102719498942901
+2025-03-13 00:47:02,609 - market_maker - INFO - Successfully placed sell order with ID: 105
+2025-03-13 00:47:02,609 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7725
+2025-03-13 00:47:02,715 - market_maker - INFO - === Paper Trading Cycle 58/100 ===
+2025-03-13 00:47:02,721 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:02.721118 ===
+2025-03-13 00:47:02,724 - market_maker - INFO - Balances: USDT=1170.0, USD=9818.496229459097
+2025-03-13 00:47:02,724 - market_maker - INFO - Updated inventory: -0.7713 (base: 1170.0, quote: 9818.496229459097)
+2025-03-13 00:47:02,724 - market_maker - INFO - A-S Model - Mid: 1.083527, Bid: 1.083522, Ask: 1.103526
+2025-03-13 00:47:02,724 - market_maker - INFO - Spread adjustment: inventory=-0.7713, factor=0.8000
+2025-03-13 00:47:02,724 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:02,724 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:02,724 - market_maker - INFO - Prices - Mid: 1.083527, Bid: 1.083526, Ask: 1.111526
+2025-03-13 00:47:02,724 - market_maker - INFO - Cancelling order ID: 105
+2025-03-13 00:47:02,724 - market_maker - INFO - Canceled order 105
+2025-03-13 00:47:02,724 - market_maker - INFO - Placing buy order: 5.0 @ 1.083526
+2025-03-13 00:47:02,724 - market_maker - INFO - Created buy order 106: 5.0 @ 1.0835256257149326
+2025-03-13 00:47:02,724 - market_maker - INFO - Successfully placed buy order with ID: 106
+2025-03-13 00:47:02,724 - market_maker - INFO - Placing sell order: 5.0 @ 1.111526
+2025-03-13 00:47:02,724 - market_maker - INFO - Created sell order 107: 5.0 @ 1.1115263800888444
+2025-03-13 00:47:02,725 - market_maker - INFO - Successfully placed sell order with ID: 107
+2025-03-13 00:47:02,725 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7713
+2025-03-13 00:47:02,830 - market_maker - INFO - === Paper Trading Cycle 59/100 ===
+2025-03-13 00:47:02,838 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:02.838100 ===
+2025-03-13 00:47:02,841 - market_maker - INFO - Balances: USDT=1170.0, USD=9813.078601330522
+2025-03-13 00:47:02,841 - market_maker - INFO - Updated inventory: -0.7701 (base: 1170.0, quote: 9813.078601330522)
+2025-03-13 00:47:02,841 - market_maker - INFO - A-S Model - Mid: 1.089417, Bid: 1.089411, Ask: 1.109416
+2025-03-13 00:47:02,841 - market_maker - INFO - Spread adjustment: inventory=-0.7701, factor=0.8000
+2025-03-13 00:47:02,841 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:02,841 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:02,841 - market_maker - INFO - Prices - Mid: 1.089417, Bid: 1.089415, Ask: 1.117416
+2025-03-13 00:47:02,841 - market_maker - INFO - Cancelling order ID: 106
+2025-03-13 00:47:02,841 - market_maker - INFO - Canceled order 106
+2025-03-13 00:47:02,841 - market_maker - INFO - Cancelling order ID: 107
+2025-03-13 00:47:02,842 - market_maker - INFO - Canceled order 107
+2025-03-13 00:47:02,842 - market_maker - INFO - Placing buy order: 5.0 @ 1.089415
+2025-03-13 00:47:02,842 - market_maker - INFO - Created buy order 108: 5.0 @ 1.0894154983704079
+2025-03-13 00:47:02,842 - market_maker - INFO - Successfully placed buy order with ID: 108
+2025-03-13 00:47:02,842 - market_maker - INFO - Placing sell order: 5.0 @ 1.117416
+2025-03-13 00:47:02,842 - market_maker - INFO - Created sell order 109: 5.0 @ 1.1174162527337415
+2025-03-13 00:47:02,842 - market_maker - INFO - Successfully placed sell order with ID: 109
+2025-03-13 00:47:02,842 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7701
+2025-03-13 00:47:02,947 - market_maker - INFO - === Paper Trading Cycle 60/100 ===
+2025-03-13 00:47:02,954 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:02.954213 ===
+2025-03-13 00:47:02,956 - market_maker - INFO - Balances: USDT=1170.0, USD=9813.049151967245
+2025-03-13 00:47:02,957 - market_maker - INFO - Executed buy order: 5.0 @ 1.0894154983704079
+2025-03-13 00:47:02,957 - market_maker - INFO - Updated inventory: -0.7707 (base: 1170.0, quote: 9813.049151967245)
+2025-03-13 00:47:02,957 - market_maker - INFO - A-S Model - Mid: 1.086240, Bid: 1.086235, Ask: 1.106240
+2025-03-13 00:47:02,957 - market_maker - INFO - Spread adjustment: inventory=-0.7707, factor=0.8000
+2025-03-13 00:47:02,957 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:02,957 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:02,957 - market_maker - INFO - Prices - Mid: 1.086240, Bid: 1.086239, Ask: 1.114239
+2025-03-13 00:47:02,957 - market_maker - INFO - Cancelling order ID: 109
+2025-03-13 00:47:02,957 - market_maker - INFO - Canceled order 109
+2025-03-13 00:47:02,957 - market_maker - INFO - Placing buy order: 5.0 @ 1.086239
+2025-03-13 00:47:02,957 - market_maker - INFO - Created buy order 110: 5.0 @ 1.0862387319205102
+2025-03-13 00:47:02,957 - market_maker - INFO - Successfully placed buy order with ID: 110
+2025-03-13 00:47:02,957 - market_maker - INFO - Placing sell order: 5.0 @ 1.114239
+2025-03-13 00:47:02,957 - market_maker - INFO - Created sell order 111: 5.0 @ 1.1142394862890153
+2025-03-13 00:47:02,957 - market_maker - INFO - Successfully placed sell order with ID: 111
+2025-03-13 00:47:02,957 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7707
+2025-03-13 00:47:03,063 - market_maker - INFO - === Paper Trading Cycle 61/100 ===
+2025-03-13 00:47:03,070 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:47:03,070 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:47:03,070 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:03.070669 ===
+2025-03-13 00:47:03,073 - market_maker - INFO - Balances: USDT=1175.0, USD=9807.617958307643
+2025-03-13 00:47:03,074 - market_maker - INFO - Executed buy order: 5.0 @ 1.0862387319205102
+2025-03-13 00:47:03,074 - market_maker - INFO - Updated inventory: -0.7701 (base: 1175.0, quote: 9807.617958307643)
+2025-03-13 00:47:03,074 - market_maker - INFO - A-S Model - Mid: 1.084290, Bid: 1.084285, Ask: 1.104290
+2025-03-13 00:47:03,074 - market_maker - INFO - Spread adjustment: inventory=-0.7701, factor=0.8000
+2025-03-13 00:47:03,074 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:03,074 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:03,074 - market_maker - INFO - Prices - Mid: 1.084290, Bid: 1.084289, Ask: 1.112290
+2025-03-13 00:47:03,074 - market_maker - INFO - Cancelling order ID: 111
+2025-03-13 00:47:03,074 - market_maker - INFO - Canceled order 111
+2025-03-13 00:47:03,074 - market_maker - INFO - Placing buy order: 5.0 @ 1.084289
+2025-03-13 00:47:03,074 - market_maker - INFO - Created buy order 112: 5.0 @ 1.084289197840368
+2025-03-13 00:47:03,074 - market_maker - INFO - Successfully placed buy order with ID: 112
+2025-03-13 00:47:03,074 - market_maker - INFO - Placing sell order: 5.0 @ 1.112290
+2025-03-13 00:47:03,074 - market_maker - INFO - Executed buy order: 5.0 @ 1.084289197840368
+2025-03-13 00:47:03,074 - market_maker - INFO - Created sell order 113: 5.0 @ 1.1122899522035163
+2025-03-13 00:47:03,074 - market_maker - INFO - Successfully placed sell order with ID: 113
+2025-03-13 00:47:03,074 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7701
+2025-03-13 00:47:03,180 - market_maker - INFO - === Paper Trading Cycle 62/100 ===
+2025-03-13 00:47:03,185 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:03.185287 ===
+2025-03-13 00:47:03,188 - market_maker - INFO - Balances: USDT=1185.0, USD=9802.196512318442
+2025-03-13 00:47:03,188 - market_maker - INFO - Updated inventory: -0.7683 (base: 1185.0, quote: 9802.196512318442)
+2025-03-13 00:47:03,188 - market_maker - INFO - A-S Model - Mid: 1.084105, Bid: 1.084099, Ask: 1.104104
+2025-03-13 00:47:03,188 - market_maker - INFO - Spread adjustment: inventory=-0.7683, factor=0.8000
+2025-03-13 00:47:03,188 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:03,188 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:03,188 - market_maker - INFO - Prices - Mid: 1.084105, Bid: 1.084104, Ask: 1.112104
+2025-03-13 00:47:03,188 - market_maker - INFO - Placing buy order: 5.0 @ 1.084104
+2025-03-13 00:47:03,189 - market_maker - INFO - Created buy order 114: 5.0 @ 1.08410354301245
+2025-03-13 00:47:03,189 - market_maker - INFO - Successfully placed buy order with ID: 114
+2025-03-13 00:47:03,189 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7683
+2025-03-13 00:47:03,294 - market_maker - INFO - === Paper Trading Cycle 63/100 ===
+2025-03-13 00:47:03,302 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:03.302088 ===
+2025-03-13 00:47:03,304 - market_maker - INFO - Balances: USDT=1185.0, USD=9796.77599460338
+2025-03-13 00:47:03,304 - market_maker - INFO - Updated inventory: -0.7672 (base: 1185.0, quote: 9796.77599460338)
+2025-03-13 00:47:03,304 - market_maker - INFO - A-S Model - Mid: 1.088998, Bid: 1.088993, Ask: 1.108998
+2025-03-13 00:47:03,305 - market_maker - INFO - Spread adjustment: inventory=-0.7672, factor=0.8000
+2025-03-13 00:47:03,305 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:03,305 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:03,305 - market_maker - INFO - Prices - Mid: 1.088998, Bid: 1.088997, Ask: 1.116998
+2025-03-13 00:47:03,305 - market_maker - INFO - Cancelling order ID: 114
+2025-03-13 00:47:03,305 - market_maker - INFO - Canceled order 114
+2025-03-13 00:47:03,305 - market_maker - INFO - Cancelling order ID: 113
+2025-03-13 00:47:03,305 - market_maker - INFO - Canceled order 113
+2025-03-13 00:47:03,305 - market_maker - INFO - Placing buy order: 5.0 @ 1.088997
+2025-03-13 00:47:03,305 - market_maker - INFO - Created buy order 115: 5.0 @ 1.0889968722067773
+2025-03-13 00:47:03,305 - market_maker - INFO - Successfully placed buy order with ID: 115
+2025-03-13 00:47:03,305 - market_maker - INFO - Placing sell order: 5.0 @ 1.116998
+2025-03-13 00:47:03,305 - market_maker - INFO - Created sell order 116: 5.0 @ 1.1169976265451274
+2025-03-13 00:47:03,306 - market_maker - INFO - Successfully placed sell order with ID: 116
+2025-03-13 00:47:03,306 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7672
+2025-03-13 00:47:03,411 - market_maker - INFO - === Paper Trading Cycle 64/100 ===
+2025-03-13 00:47:03,419 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:03.419881 ===
+2025-03-13 00:47:03,423 - market_maker - INFO - Balances: USDT=1185.0, USD=9796.751527957407
+2025-03-13 00:47:03,423 - market_maker - INFO - Updated inventory: -0.7666 (base: 1185.0, quote: 9796.751527957407)
+2025-03-13 00:47:03,423 - market_maker - INFO - A-S Model - Mid: 1.092369, Bid: 1.092364, Ask: 1.112369
+2025-03-13 00:47:03,423 - market_maker - INFO - Spread adjustment: inventory=-0.7666, factor=0.8000
+2025-03-13 00:47:03,423 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:03,423 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:03,423 - market_maker - INFO - Prices - Mid: 1.092369, Bid: 1.092368, Ask: 1.120369
+2025-03-13 00:47:03,423 - market_maker - INFO - Executed buy order: 5.0 @ 1.0889968722067773
+2025-03-13 00:47:03,424 - market_maker - INFO - Cancelling order ID: 116
+2025-03-13 00:47:03,424 - market_maker - INFO - Canceled order 116
+2025-03-13 00:47:03,424 - market_maker - INFO - Placing buy order: 5.0 @ 1.092368
+2025-03-13 00:47:03,424 - market_maker - INFO - Created buy order 117: 5.0 @ 1.092368165619407
+2025-03-13 00:47:03,424 - market_maker - INFO - Successfully placed buy order with ID: 117
+2025-03-13 00:47:03,424 - market_maker - INFO - Placing sell order: 5.0 @ 1.120369
+2025-03-13 00:47:03,424 - market_maker - INFO - Executed buy order: 5.0 @ 1.092368165619407
+2025-03-13 00:47:03,424 - market_maker - INFO - Created sell order 118: 5.0 @ 1.1203689199522138
+2025-03-13 00:47:03,424 - market_maker - INFO - Successfully placed sell order with ID: 118
+2025-03-13 00:47:03,424 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7666
+2025-03-13 00:47:03,530 - market_maker - INFO - === Paper Trading Cycle 65/100 ===
+2025-03-13 00:47:03,537 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:03.537800 ===
+2025-03-13 00:47:03,540 - market_maker - INFO - Balances: USDT=1195.0, USD=9791.28968712931
+2025-03-13 00:47:03,540 - market_maker - INFO - Updated inventory: -0.7660 (base: 1195.0, quote: 9791.28968712931)
+2025-03-13 00:47:03,540 - market_maker - INFO - A-S Model - Mid: 1.085516, Bid: 1.085510, Ask: 1.105515
+2025-03-13 00:47:03,540 - market_maker - INFO - Spread adjustment: inventory=-0.7660, factor=0.8000
+2025-03-13 00:47:03,540 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:03,541 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:03,541 - market_maker - INFO - Prices - Mid: 1.085516, Bid: 1.085515, Ask: 1.113515
+2025-03-13 00:47:03,541 - market_maker - INFO - Cancelling order ID: 118
+2025-03-13 00:47:03,541 - market_maker - INFO - Canceled order 118
+2025-03-13 00:47:03,541 - market_maker - INFO - Placing buy order: 5.0 @ 1.085515
+2025-03-13 00:47:03,541 - market_maker - INFO - Created buy order 119: 5.0 @ 1.085514519598309
+2025-03-13 00:47:03,541 - market_maker - INFO - Successfully placed buy order with ID: 119
+2025-03-13 00:47:03,541 - market_maker - INFO - Placing sell order: 5.0 @ 1.113515
+2025-03-13 00:47:03,541 - market_maker - INFO - Created sell order 120: 5.0 @ 1.1135152739263272
+2025-03-13 00:47:03,541 - market_maker - INFO - Successfully placed sell order with ID: 120
+2025-03-13 00:47:03,541 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7660
+2025-03-13 00:47:03,646 - market_maker - INFO - === Paper Trading Cycle 66/100 ===
+2025-03-13 00:47:03,653 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:03.653960 ===
+2025-03-13 00:47:03,656 - market_maker - INFO - Executed buy order: 5.0 @ 1.085514519598309
+2025-03-13 00:47:03,656 - market_maker - INFO - Balances: USDT=1200.0, USD=9785.86211453132
+2025-03-13 00:47:03,656 - market_maker - INFO - Updated inventory: -0.7656 (base: 1200.0, quote: 9785.86211453132)
+2025-03-13 00:47:03,656 - market_maker - INFO - A-S Model - Mid: 1.082566, Bid: 1.082561, Ask: 1.102566
+2025-03-13 00:47:03,656 - market_maker - INFO - Spread adjustment: inventory=-0.7656, factor=0.8000
+2025-03-13 00:47:03,656 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:03,656 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:03,657 - market_maker - INFO - Prices - Mid: 1.082566, Bid: 1.082565, Ask: 1.110566
+2025-03-13 00:47:03,657 - market_maker - INFO - Cancelling order ID: 120
+2025-03-13 00:47:03,657 - market_maker - INFO - Canceled order 120
+2025-03-13 00:47:03,657 - market_maker - INFO - Placing buy order: 5.0 @ 1.082565
+2025-03-13 00:47:03,657 - market_maker - INFO - Created buy order 121: 5.0 @ 1.0825650511607015
+2025-03-13 00:47:03,657 - market_maker - INFO - Successfully placed buy order with ID: 121
+2025-03-13 00:47:03,657 - market_maker - INFO - Placing sell order: 5.0 @ 1.110566
+2025-03-13 00:47:03,657 - market_maker - INFO - Executed buy order: 5.0 @ 1.0825650511607015
+2025-03-13 00:47:03,657 - market_maker - INFO - Created sell order 122: 5.0 @ 1.1105658054851082
+2025-03-13 00:47:03,657 - market_maker - INFO - Successfully placed sell order with ID: 122
+2025-03-13 00:47:03,657 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7656
+2025-03-13 00:47:03,763 - market_maker - INFO - === Paper Trading Cycle 67/100 ===
+2025-03-13 00:47:03,770 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:03.770943 ===
+2025-03-13 00:47:03,773 - market_maker - INFO - Balances: USDT=1205.0, USD=9780.449289275515
+2025-03-13 00:47:03,773 - market_maker - INFO - Updated inventory: -0.7656 (base: 1205.0, quote: 9780.449289275515)
+2025-03-13 00:47:03,774 - market_maker - INFO - A-S Model - Mid: 1.077661, Bid: 1.077655, Ask: 1.097660
+2025-03-13 00:47:03,774 - market_maker - INFO - Spread adjustment: inventory=-0.7656, factor=0.8000
+2025-03-13 00:47:03,774 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:03,774 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:03,774 - market_maker - INFO - Prices - Mid: 1.077661, Bid: 1.077659, Ask: 1.105660
+2025-03-13 00:47:03,774 - market_maker - INFO - Cancelling order ID: 122
+2025-03-13 00:47:03,774 - market_maker - INFO - Canceled order 122
+2025-03-13 00:47:03,774 - market_maker - INFO - Placing buy order: 5.0 @ 1.077659
+2025-03-13 00:47:03,774 - market_maker - INFO - Created buy order 123: 5.0 @ 1.0776594848843528
+2025-03-13 00:47:03,774 - market_maker - INFO - Successfully placed buy order with ID: 123
+2025-03-13 00:47:03,774 - market_maker - INFO - Placing sell order: 5.0 @ 1.105660
+2025-03-13 00:47:03,774 - market_maker - INFO - Created sell order 124: 5.0 @ 1.1056602392084545
+2025-03-13 00:47:03,774 - market_maker - INFO - Successfully placed sell order with ID: 124
+2025-03-13 00:47:03,774 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7656
+2025-03-13 00:47:03,880 - market_maker - INFO - === Paper Trading Cycle 68/100 ===
+2025-03-13 00:47:03,887 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:03.887565 ===
+2025-03-13 00:47:03,890 - market_maker - INFO - Balances: USDT=1205.0, USD=9775.060991851093
+2025-03-13 00:47:03,890 - market_maker - INFO - Updated inventory: -0.7643 (base: 1205.0, quote: 9775.060991851093)
+2025-03-13 00:47:03,890 - market_maker - INFO - A-S Model - Mid: 1.083479, Bid: 1.083474, Ask: 1.103479
+2025-03-13 00:47:03,890 - market_maker - INFO - Spread adjustment: inventory=-0.7643, factor=0.8000
+2025-03-13 00:47:03,890 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:03,890 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:03,890 - market_maker - INFO - Prices - Mid: 1.083479, Bid: 1.083478, Ask: 1.111479
+2025-03-13 00:47:03,891 - market_maker - INFO - Cancelling order ID: 123
+2025-03-13 00:47:03,891 - market_maker - INFO - Canceled order 123
+2025-03-13 00:47:03,891 - market_maker - INFO - Cancelling order ID: 124
+2025-03-13 00:47:03,891 - market_maker - INFO - Canceled order 124
+2025-03-13 00:47:03,891 - market_maker - INFO - Placing buy order: 5.0 @ 1.083478
+2025-03-13 00:47:03,891 - market_maker - INFO - Created buy order 125: 5.0 @ 1.0834781567137013
+2025-03-13 00:47:03,891 - market_maker - INFO - Successfully placed buy order with ID: 125
+2025-03-13 00:47:03,891 - market_maker - INFO - Placing sell order: 5.0 @ 1.111479
+2025-03-13 00:47:03,891 - market_maker - INFO - Executed buy order: 5.0 @ 1.0834781567137013
+2025-03-13 00:47:03,891 - market_maker - INFO - Created sell order 126: 5.0 @ 1.111478911027103
+2025-03-13 00:47:03,891 - market_maker - INFO - Successfully placed sell order with ID: 126
+2025-03-13 00:47:03,892 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7643
+2025-03-13 00:47:03,997 - market_maker - INFO - === Paper Trading Cycle 69/100 ===
+2025-03-13 00:47:04,006 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:04.005993 ===
+2025-03-13 00:47:04,008 - market_maker - INFO - Balances: USDT=1210.0, USD=9775.031898491947
+2025-03-13 00:47:04,008 - market_maker - INFO - Updated inventory: -0.7634 (base: 1210.0, quote: 9775.031898491947)
+2025-03-13 00:47:04,008 - market_maker - INFO - A-S Model - Mid: 1.083997, Bid: 1.083992, Ask: 1.103997
+2025-03-13 00:47:04,008 - market_maker - INFO - Spread adjustment: inventory=-0.7634, factor=0.8000
+2025-03-13 00:47:04,008 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:04,008 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:04,008 - market_maker - INFO - Prices - Mid: 1.083997, Bid: 1.083996, Ask: 1.111997
+2025-03-13 00:47:04,008 - market_maker - INFO - Placing buy order: 5.0 @ 1.083996
+2025-03-13 00:47:04,009 - market_maker - INFO - Created buy order 127: 5.0 @ 1.083996372260479
+2025-03-13 00:47:04,009 - market_maker - INFO - Successfully placed buy order with ID: 127
+2025-03-13 00:47:04,009 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7634
+2025-03-13 00:47:04,114 - market_maker - INFO - === Paper Trading Cycle 70/100 ===
+2025-03-13 00:47:04,123 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:04.123499 ===
+2025-03-13 00:47:04,125 - market_maker - INFO - Balances: USDT=1210.0, USD=9769.611916630645
+2025-03-13 00:47:04,126 - market_maker - INFO - Updated inventory: -0.7628 (base: 1210.0, quote: 9769.611916630645)
+2025-03-13 00:47:04,126 - market_maker - INFO - A-S Model - Mid: 1.086264, Bid: 1.086259, Ask: 1.106264
+2025-03-13 00:47:04,126 - market_maker - INFO - Spread adjustment: inventory=-0.7628, factor=0.8000
+2025-03-13 00:47:04,126 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:04,126 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:04,126 - market_maker - INFO - Prices - Mid: 1.086264, Bid: 1.086263, Ask: 1.114264
+2025-03-13 00:47:04,126 - market_maker - INFO - Executed buy order: 5.0 @ 1.083996372260479
+2025-03-13 00:47:04,126 - market_maker - INFO - Cancelling order ID: 126
+2025-03-13 00:47:04,126 - market_maker - INFO - Canceled order 126
+2025-03-13 00:47:04,126 - market_maker - INFO - Placing buy order: 5.0 @ 1.086263
+2025-03-13 00:47:04,126 - market_maker - INFO - Created buy order 128: 5.0 @ 1.0862633768378618
+2025-03-13 00:47:04,126 - market_maker - INFO - Successfully placed buy order with ID: 128
+2025-03-13 00:47:04,126 - market_maker - INFO - Placing sell order: 5.0 @ 1.114264
+2025-03-13 00:47:04,126 - market_maker - INFO - Executed buy order: 5.0 @ 1.0862633768378618
+2025-03-13 00:47:04,126 - market_maker - INFO - Created sell order 129: 5.0 @ 1.1142641311381125
+2025-03-13 00:47:04,126 - market_maker - INFO - Successfully placed sell order with ID: 129
+2025-03-13 00:47:04,127 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7628
+2025-03-13 00:47:04,232 - market_maker - INFO - === Paper Trading Cycle 71/100 ===
+2025-03-13 00:47:04,240 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:47:04,240 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:47:04,240 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:04.240465 ===
+2025-03-13 00:47:04,242 - market_maker - INFO - Balances: USDT=1220.0, USD=9764.180599746456
+2025-03-13 00:47:04,242 - market_maker - INFO - Updated inventory: -0.7628 (base: 1220.0, quote: 9764.180599746456)
+2025-03-13 00:47:04,242 - market_maker - INFO - A-S Model - Mid: 1.076985, Bid: 1.076980, Ask: 1.096985
+2025-03-13 00:47:04,242 - market_maker - INFO - Spread adjustment: inventory=-0.7628, factor=0.8000
+2025-03-13 00:47:04,242 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:04,242 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:04,243 - market_maker - INFO - Prices - Mid: 1.076985, Bid: 1.076984, Ask: 1.104985
+2025-03-13 00:47:04,243 - market_maker - INFO - Cancelling order ID: 129
+2025-03-13 00:47:04,243 - market_maker - INFO - Canceled order 129
+2025-03-13 00:47:04,243 - market_maker - INFO - Placing buy order: 5.0 @ 1.076984
+2025-03-13 00:47:04,243 - market_maker - INFO - Created buy order 130: 5.0 @ 1.0769839202253193
+2025-03-13 00:47:04,243 - market_maker - INFO - Successfully placed buy order with ID: 130
+2025-03-13 00:47:04,243 - market_maker - INFO - Placing sell order: 5.0 @ 1.104985
+2025-03-13 00:47:04,243 - market_maker - INFO - Created sell order 131: 5.0 @ 1.1049846745251937
+2025-03-13 00:47:04,243 - market_maker - INFO - Successfully placed sell order with ID: 131
+2025-03-13 00:47:04,243 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7628
+2025-03-13 00:47:04,348 - market_maker - INFO - === Paper Trading Cycle 72/100 ===
+2025-03-13 00:47:04,356 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:04.356469 ===
+2025-03-13 00:47:04,359 - market_maker - INFO - Balances: USDT=1220.0, USD=9758.79568014533
+2025-03-13 00:47:04,359 - market_maker - INFO - Executed buy order: 5.0 @ 1.0769839202253193
+2025-03-13 00:47:04,360 - market_maker - INFO - Updated inventory: -0.7628 (base: 1220.0, quote: 9758.79568014533)
+2025-03-13 00:47:04,360 - market_maker - INFO - A-S Model - Mid: 1.076592, Bid: 1.076586, Ask: 1.096591
+2025-03-13 00:47:04,360 - market_maker - INFO - Spread adjustment: inventory=-0.7628, factor=0.8000
+2025-03-13 00:47:04,360 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:04,360 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:04,360 - market_maker - INFO - Prices - Mid: 1.076592, Bid: 1.076591, Ask: 1.104591
+2025-03-13 00:47:04,360 - market_maker - INFO - Placing buy order: 5.0 @ 1.076591
+2025-03-13 00:47:04,360 - market_maker - INFO - Created buy order 132: 5.0 @ 1.0765905701022342
+2025-03-13 00:47:04,360 - market_maker - INFO - Successfully placed buy order with ID: 132
+2025-03-13 00:47:04,360 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7628
+2025-03-13 00:47:04,466 - market_maker - INFO - === Paper Trading Cycle 73/100 ===
+2025-03-13 00:47:04,473 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:04.473867 ===
+2025-03-13 00:47:04,476 - market_maker - INFO - Executed buy order: 5.0 @ 1.0765905701022342
+2025-03-13 00:47:04,477 - market_maker - INFO - Balances: USDT=1230.0, USD=9753.412727294819
+2025-03-13 00:47:04,477 - market_maker - INFO - Updated inventory: -0.7623 (base: 1230.0, quote: 9753.412727294819)
+2025-03-13 00:47:04,477 - market_maker - INFO - A-S Model - Mid: 1.069492, Bid: 1.069487, Ask: 1.089492
+2025-03-13 00:47:04,477 - market_maker - INFO - Spread adjustment: inventory=-0.7623, factor=0.8000
+2025-03-13 00:47:04,477 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:04,477 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:04,477 - market_maker - INFO - Prices - Mid: 1.069492, Bid: 1.069491, Ask: 1.097492
+2025-03-13 00:47:04,477 - market_maker - INFO - Cancelling order ID: 131
+2025-03-13 00:47:04,477 - market_maker - INFO - Canceled order 131
+2025-03-13 00:47:04,477 - market_maker - INFO - Placing buy order: 5.0 @ 1.069491
+2025-03-13 00:47:04,477 - market_maker - INFO - Created buy order 133: 5.0 @ 1.0694911163680774
+2025-03-13 00:47:04,477 - market_maker - INFO - Successfully placed buy order with ID: 133
+2025-03-13 00:47:04,477 - market_maker - INFO - Placing sell order: 5.0 @ 1.097492
+2025-03-13 00:47:04,477 - market_maker - INFO - Created sell order 134: 5.0 @ 1.0974918706638026
+2025-03-13 00:47:04,478 - market_maker - INFO - Successfully placed sell order with ID: 134
+2025-03-13 00:47:04,478 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7623
+2025-03-13 00:47:04,583 - market_maker - INFO - === Paper Trading Cycle 74/100 ===
+2025-03-13 00:47:04,591 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:04.591289 ===
+2025-03-13 00:47:04,594 - market_maker - INFO - Balances: USDT=1230.0, USD=9748.065271712978
+2025-03-13 00:47:04,594 - market_maker - INFO - Executed buy order: 5.0 @ 1.0694911163680774
+2025-03-13 00:47:04,594 - market_maker - INFO - Updated inventory: -0.7627 (base: 1230.0, quote: 9748.065271712978)
+2025-03-13 00:47:04,594 - market_maker - INFO - A-S Model - Mid: 1.066910, Bid: 1.066905, Ask: 1.086910
+2025-03-13 00:47:04,594 - market_maker - INFO - Spread adjustment: inventory=-0.7627, factor=0.8000
+2025-03-13 00:47:04,594 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:04,594 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:04,594 - market_maker - INFO - Prices - Mid: 1.066910, Bid: 1.066909, Ask: 1.094910
+2025-03-13 00:47:04,595 - market_maker - INFO - Cancelling order ID: 134
+2025-03-13 00:47:04,595 - market_maker - INFO - Canceled order 134
+2025-03-13 00:47:04,595 - market_maker - INFO - Placing buy order: 5.0 @ 1.066909
+2025-03-13 00:47:04,595 - market_maker - INFO - Created buy order 135: 5.0 @ 1.0669090432069541
+2025-03-13 00:47:04,595 - market_maker - INFO - Successfully placed buy order with ID: 135
+2025-03-13 00:47:04,595 - market_maker - INFO - Placing sell order: 5.0 @ 1.094910
+2025-03-13 00:47:04,595 - market_maker - INFO - Created sell order 136: 5.0 @ 1.094909797506073
+2025-03-13 00:47:04,595 - market_maker - INFO - Successfully placed sell order with ID: 136
+2025-03-13 00:47:04,595 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7627
+2025-03-13 00:47:04,700 - market_maker - INFO - === Paper Trading Cycle 75/100 ===
+2025-03-13 00:47:04,708 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:04.708604 ===
+2025-03-13 00:47:04,711 - market_maker - INFO - Balances: USDT=1235.0, USD=9742.730726496942
+2025-03-13 00:47:04,711 - market_maker - INFO - Executed buy order: 5.0 @ 1.0669090432069541
+2025-03-13 00:47:04,711 - market_maker - INFO - Updated inventory: -0.7621 (base: 1235.0, quote: 9742.730726496942)
+2025-03-13 00:47:04,712 - market_maker - INFO - A-S Model - Mid: 1.064995, Bid: 1.064989, Ask: 1.084994
+2025-03-13 00:47:04,712 - market_maker - INFO - Spread adjustment: inventory=-0.7621, factor=0.8000
+2025-03-13 00:47:04,712 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:04,712 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:04,712 - market_maker - INFO - Prices - Mid: 1.064995, Bid: 1.064994, Ask: 1.092994
+2025-03-13 00:47:04,712 - market_maker - INFO - Cancelling order ID: 136
+2025-03-13 00:47:04,712 - market_maker - INFO - Canceled order 136
+2025-03-13 00:47:04,712 - market_maker - INFO - Placing buy order: 5.0 @ 1.064994
+2025-03-13 00:47:04,712 - market_maker - INFO - Created buy order 137: 5.0 @ 1.0649935764844778
+2025-03-13 00:47:04,712 - market_maker - INFO - Successfully placed buy order with ID: 137
+2025-03-13 00:47:04,712 - market_maker - INFO - Placing sell order: 5.0 @ 1.092994
+2025-03-13 00:47:04,712 - market_maker - INFO - Created sell order 138: 5.0 @ 1.0929943307784973
+2025-03-13 00:47:04,712 - market_maker - INFO - Successfully placed sell order with ID: 138
+2025-03-13 00:47:04,712 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7621
+2025-03-13 00:47:04,818 - market_maker - INFO - === Paper Trading Cycle 76/100 ===
+2025-03-13 00:47:04,827 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:04.827205 ===
+2025-03-13 00:47:04,830 - market_maker - INFO - Balances: USDT=1240.0, USD=9737.405758614519
+2025-03-13 00:47:04,830 - market_maker - INFO - Updated inventory: -0.7585 (base: 1240.0, quote: 9737.405758614519)
+2025-03-13 00:47:04,830 - market_maker - INFO - A-S Model - Mid: 1.078251, Bid: 1.078246, Ask: 1.098251
+2025-03-13 00:47:04,830 - market_maker - INFO - Spread adjustment: inventory=-0.7585, factor=0.8000
+2025-03-13 00:47:04,830 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:04,830 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:04,830 - market_maker - INFO - Prices - Mid: 1.078251, Bid: 1.078250, Ask: 1.106251
+2025-03-13 00:47:04,830 - market_maker - INFO - Cancelling order ID: 137
+2025-03-13 00:47:04,830 - market_maker - INFO - Canceled order 137
+2025-03-13 00:47:04,830 - market_maker - INFO - Cancelling order ID: 138
+2025-03-13 00:47:04,830 - market_maker - INFO - Canceled order 138
+2025-03-13 00:47:04,830 - market_maker - INFO - Placing buy order: 5.0 @ 1.078250
+2025-03-13 00:47:04,830 - market_maker - INFO - Created buy order 139: 5.0 @ 1.0782500252115208
+2025-03-13 00:47:04,830 - market_maker - INFO - Successfully placed buy order with ID: 139
+2025-03-13 00:47:04,830 - market_maker - INFO - Placing sell order: 5.0 @ 1.106251
+2025-03-13 00:47:04,831 - market_maker - INFO - Executed buy order: 5.0 @ 1.0782500252115208
+2025-03-13 00:47:04,831 - market_maker - INFO - Created sell order 140: 5.0 @ 1.1062507794745478
+2025-03-13 00:47:04,831 - market_maker - INFO - Successfully placed sell order with ID: 140
+2025-03-13 00:47:04,831 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7585
+2025-03-13 00:47:04,936 - market_maker - INFO - === Paper Trading Cycle 77/100 ===
+2025-03-13 00:47:04,944 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:04.944552 ===
+2025-03-13 00:47:04,947 - market_maker - INFO - Balances: USDT=1245.0, USD=9737.339476370884
+2025-03-13 00:47:04,947 - market_maker - INFO - Updated inventory: -0.7585 (base: 1245.0, quote: 9737.339476370884)
+2025-03-13 00:47:04,947 - market_maker - INFO - A-S Model - Mid: 1.074263, Bid: 1.074258, Ask: 1.094263
+2025-03-13 00:47:04,947 - market_maker - INFO - Spread adjustment: inventory=-0.7585, factor=0.8000
+2025-03-13 00:47:04,948 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:04,948 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:04,948 - market_maker - INFO - Prices - Mid: 1.074263, Bid: 1.074262, Ask: 1.102263
+2025-03-13 00:47:04,948 - market_maker - INFO - Cancelling order ID: 140
+2025-03-13 00:47:04,948 - market_maker - INFO - Canceled order 140
+2025-03-13 00:47:04,948 - market_maker - INFO - Placing buy order: 5.0 @ 1.074262
+2025-03-13 00:47:04,948 - market_maker - INFO - Created buy order 141: 5.0 @ 1.0742620764214534
+2025-03-13 00:47:04,948 - market_maker - INFO - Successfully placed buy order with ID: 141
+2025-03-13 00:47:04,948 - market_maker - INFO - Placing sell order: 5.0 @ 1.102263
+2025-03-13 00:47:04,948 - market_maker - INFO - Executed buy order: 5.0 @ 1.0742620764214534
+2025-03-13 00:47:04,948 - market_maker - INFO - Created sell order 142: 5.0 @ 1.102262830683882
+2025-03-13 00:47:04,948 - market_maker - INFO - Successfully placed sell order with ID: 142
+2025-03-13 00:47:04,948 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7585
+2025-03-13 00:47:05,054 - market_maker - INFO - === Paper Trading Cycle 78/100 ===
+2025-03-13 00:47:05,062 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:05.062219 ===
+2025-03-13 00:47:05,065 - market_maker - INFO - Balances: USDT=1250.0, USD=9731.968165988777
+2025-03-13 00:47:05,065 - market_maker - INFO - Updated inventory: -0.7590 (base: 1250.0, quote: 9731.968165988777)
+2025-03-13 00:47:05,065 - market_maker - INFO - A-S Model - Mid: 1.066824, Bid: 1.066819, Ask: 1.086824
+2025-03-13 00:47:05,065 - market_maker - INFO - Spread adjustment: inventory=-0.7590, factor=0.8000
+2025-03-13 00:47:05,065 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:05,065 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:05,065 - market_maker - INFO - Prices - Mid: 1.066824, Bid: 1.066823, Ask: 1.094824
+2025-03-13 00:47:05,065 - market_maker - INFO - Cancelling order ID: 142
+2025-03-13 00:47:05,065 - market_maker - INFO - Canceled order 142
+2025-03-13 00:47:05,065 - market_maker - INFO - Placing buy order: 5.0 @ 1.066823
+2025-03-13 00:47:05,065 - market_maker - INFO - Created buy order 143: 5.0 @ 1.066823444301233
+2025-03-13 00:47:05,065 - market_maker - INFO - Successfully placed buy order with ID: 143
+2025-03-13 00:47:05,065 - market_maker - INFO - Placing sell order: 5.0 @ 1.094824
+2025-03-13 00:47:05,065 - market_maker - INFO - Created sell order 144: 5.0 @ 1.0948241985680478
+2025-03-13 00:47:05,066 - market_maker - INFO - Successfully placed sell order with ID: 144
+2025-03-13 00:47:05,066 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7590
+2025-03-13 00:47:05,171 - market_maker - INFO - === Paper Trading Cycle 79/100 ===
+2025-03-13 00:47:05,182 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:05.182217 ===
+2025-03-13 00:47:05,184 - market_maker - INFO - Balances: USDT=1250.0, USD=9726.634048767271
+2025-03-13 00:47:05,184 - market_maker - INFO - Updated inventory: -0.7572 (base: 1250.0, quote: 9726.634048767271)
+2025-03-13 00:47:05,184 - market_maker - INFO - A-S Model - Mid: 1.075072, Bid: 1.075067, Ask: 1.095072
+2025-03-13 00:47:05,184 - market_maker - INFO - Spread adjustment: inventory=-0.7572, factor=0.8000
+2025-03-13 00:47:05,185 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:05,185 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:05,185 - market_maker - INFO - Prices - Mid: 1.075072, Bid: 1.075071, Ask: 1.103072
+2025-03-13 00:47:05,185 - market_maker - INFO - Cancelling order ID: 143
+2025-03-13 00:47:05,185 - market_maker - INFO - Canceled order 143
+2025-03-13 00:47:05,185 - market_maker - INFO - Cancelling order ID: 144
+2025-03-13 00:47:05,185 - market_maker - INFO - Canceled order 144
+2025-03-13 00:47:05,185 - market_maker - INFO - Placing buy order: 5.0 @ 1.075071
+2025-03-13 00:47:05,185 - market_maker - INFO - Created buy order 145: 5.0 @ 1.0750711020108499
+2025-03-13 00:47:05,185 - market_maker - INFO - Successfully placed buy order with ID: 145
+2025-03-13 00:47:05,185 - market_maker - INFO - Placing sell order: 5.0 @ 1.103072
+2025-03-13 00:47:05,185 - market_maker - INFO - Created sell order 146: 5.0 @ 1.1030718562624886
+2025-03-13 00:47:05,185 - market_maker - INFO - Successfully placed sell order with ID: 146
+2025-03-13 00:47:05,185 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7572
+2025-03-13 00:47:05,291 - market_maker - INFO - === Paper Trading Cycle 80/100 ===
+2025-03-13 00:47:05,298 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:05.298956 ===
+2025-03-13 00:47:05,306 - market_maker - INFO - Balances: USDT=1250.0, USD=9726.592810478724
+2025-03-13 00:47:05,306 - market_maker - INFO - Updated inventory: -0.7553 (base: 1250.0, quote: 9726.592810478724)
+2025-03-13 00:47:05,306 - market_maker - INFO - A-S Model - Mid: 1.084590, Bid: 1.084584, Ask: 1.104589
+2025-03-13 00:47:05,306 - market_maker - INFO - Spread adjustment: inventory=-0.7553, factor=0.8000
+2025-03-13 00:47:05,307 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:05,307 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:05,307 - market_maker - INFO - Prices - Mid: 1.084590, Bid: 1.084589, Ask: 1.112589
+2025-03-13 00:47:05,308 - market_maker - INFO - Cancelling order ID: 145
+2025-03-13 00:47:05,308 - market_maker - INFO - Canceled order 145
+2025-03-13 00:47:05,308 - market_maker - INFO - Cancelling order ID: 146
+2025-03-13 00:47:05,308 - market_maker - INFO - Canceled order 146
+2025-03-13 00:47:05,308 - market_maker - INFO - Placing buy order: 5.0 @ 1.084589
+2025-03-13 00:47:05,308 - market_maker - INFO - Created buy order 147: 5.0 @ 1.084588507365055
+2025-03-13 00:47:05,308 - market_maker - INFO - Successfully placed buy order with ID: 147
+2025-03-13 00:47:05,308 - market_maker - INFO - Placing sell order: 5.0 @ 1.112589
+2025-03-13 00:47:05,309 - market_maker - INFO - Created sell order 148: 5.0 @ 1.1125892616003863
+2025-03-13 00:47:05,310 - market_maker - INFO - Successfully placed sell order with ID: 148
+2025-03-13 00:47:05,310 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7553
+2025-03-13 00:47:05,415 - market_maker - INFO - === Paper Trading Cycle 81/100 ===
+2025-03-13 00:47:05,418 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:47:05,418 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:47:05,418 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:05.418388 ===
+2025-03-13 00:47:05,419 - market_maker - INFO - Balances: USDT=1250.0, USD=9726.545223451953
+2025-03-13 00:47:05,419 - market_maker - INFO - Updated inventory: -0.7552 (base: 1250.0, quote: 9726.545223451953)
+2025-03-13 00:47:05,419 - market_maker - INFO - A-S Model - Mid: 1.085297, Bid: 1.085292, Ask: 1.105297
+2025-03-13 00:47:05,419 - market_maker - INFO - Spread adjustment: inventory=-0.7552, factor=0.8000
+2025-03-13 00:47:05,419 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:05,419 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:05,419 - market_maker - INFO - Prices - Mid: 1.085297, Bid: 1.085296, Ask: 1.113297
+2025-03-13 00:47:05,419 - market_maker - INFO - Cancelling order ID: 147
+2025-03-13 00:47:05,419 - market_maker - INFO - Canceled order 147
+2025-03-13 00:47:05,419 - market_maker - INFO - Cancelling order ID: 148
+2025-03-13 00:47:05,419 - market_maker - INFO - Canceled order 148
+2025-03-13 00:47:05,419 - market_maker - INFO - Placing buy order: 5.0 @ 1.085296
+2025-03-13 00:47:05,419 - market_maker - INFO - Created buy order 149: 5.0 @ 1.0852960909676963
+2025-03-13 00:47:05,419 - market_maker - INFO - Successfully placed buy order with ID: 149
+2025-03-13 00:47:05,419 - market_maker - INFO - Placing sell order: 5.0 @ 1.113297
+2025-03-13 00:47:05,419 - market_maker - INFO - Created sell order 150: 5.0 @ 1.113296845201809
+2025-03-13 00:47:05,419 - market_maker - INFO - Successfully placed sell order with ID: 150
+2025-03-13 00:47:05,419 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7552
+2025-03-13 00:47:05,524 - market_maker - INFO - === Paper Trading Cycle 82/100 ===
+2025-03-13 00:47:05,527 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:05.527340 ===
+2025-03-13 00:47:05,529 - market_maker - INFO - Balances: USDT=1250.0, USD=9726.541685533939
+2025-03-13 00:47:05,529 - market_maker - INFO - Updated inventory: -0.7545 (base: 1250.0, quote: 9726.541685533939)
+2025-03-13 00:47:05,529 - market_maker - INFO - A-S Model - Mid: 1.088698, Bid: 1.088692, Ask: 1.108697
+2025-03-13 00:47:05,529 - market_maker - INFO - Spread adjustment: inventory=-0.7545, factor=0.8000
+2025-03-13 00:47:05,529 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:05,529 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:05,529 - market_maker - INFO - Prices - Mid: 1.088698, Bid: 1.088696, Ask: 1.116697
+2025-03-13 00:47:05,529 - market_maker - INFO - Cancelling order ID: 149
+2025-03-13 00:47:05,529 - market_maker - INFO - Canceled order 149
+2025-03-13 00:47:05,529 - market_maker - INFO - Cancelling order ID: 150
+2025-03-13 00:47:05,529 - market_maker - INFO - Canceled order 150
+2025-03-13 00:47:05,529 - market_maker - INFO - Placing buy order: 5.0 @ 1.088696
+2025-03-13 00:47:05,529 - market_maker - INFO - Created buy order 151: 5.0 @ 1.0886964776146133
+2025-03-13 00:47:05,529 - market_maker - INFO - Successfully placed buy order with ID: 151
+2025-03-13 00:47:05,529 - market_maker - INFO - Placing sell order: 5.0 @ 1.116697
+2025-03-13 00:47:05,529 - market_maker - INFO - Executed buy order: 5.0 @ 1.0886964776146133
+2025-03-13 00:47:05,529 - market_maker - INFO - Created sell order 152: 5.0 @ 1.116697231842917
+2025-03-13 00:47:05,529 - market_maker - INFO - Successfully placed sell order with ID: 152
+2025-03-13 00:47:05,530 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7545
+2025-03-13 00:47:05,635 - market_maker - INFO - === Paper Trading Cycle 83/100 ===
+2025-03-13 00:47:05,642 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:05.642225 ===
+2025-03-13 00:47:05,645 - market_maker - INFO - Balances: USDT=1255.0, USD=9726.524683600705
+2025-03-13 00:47:05,645 - market_maker - INFO - Updated inventory: -0.7554 (base: 1255.0, quote: 9726.524683600705)
+2025-03-13 00:47:05,645 - market_maker - INFO - A-S Model - Mid: 1.079702, Bid: 1.079696, Ask: 1.099701
+2025-03-13 00:47:05,645 - market_maker - INFO - Spread adjustment: inventory=-0.7554, factor=0.8000
+2025-03-13 00:47:05,646 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:05,646 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:05,646 - market_maker - INFO - Prices - Mid: 1.079702, Bid: 1.079701, Ask: 1.107701
+2025-03-13 00:47:05,646 - market_maker - INFO - Cancelling order ID: 152
+2025-03-13 00:47:05,646 - market_maker - INFO - Canceled order 152
+2025-03-13 00:47:05,646 - market_maker - INFO - Placing buy order: 5.0 @ 1.079701
+2025-03-13 00:47:05,646 - market_maker - INFO - Created buy order 153: 5.0 @ 1.0797005162296953
+2025-03-13 00:47:05,646 - market_maker - INFO - Successfully placed buy order with ID: 153
+2025-03-13 00:47:05,646 - market_maker - INFO - Placing sell order: 5.0 @ 1.107701
+2025-03-13 00:47:05,646 - market_maker - INFO - Created sell order 154: 5.0 @ 1.1077012704659872
+2025-03-13 00:47:05,646 - market_maker - INFO - Successfully placed sell order with ID: 154
+2025-03-13 00:47:05,646 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7554
+2025-03-13 00:47:05,752 - market_maker - INFO - === Paper Trading Cycle 84/100 ===
+2025-03-13 00:47:05,759 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:05.759852 ===
+2025-03-13 00:47:05,762 - market_maker - INFO - Balances: USDT=1255.0, USD=9721.126181019556
+2025-03-13 00:47:05,763 - market_maker - INFO - Updated inventory: -0.7541 (base: 1255.0, quote: 9721.126181019556)
+2025-03-13 00:47:05,763 - market_maker - INFO - A-S Model - Mid: 1.085792, Bid: 1.085787, Ask: 1.105792
+2025-03-13 00:47:05,763 - market_maker - INFO - Spread adjustment: inventory=-0.7541, factor=0.8000
+2025-03-13 00:47:05,763 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:05,763 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:05,763 - market_maker - INFO - Prices - Mid: 1.085792, Bid: 1.085791, Ask: 1.113792
+2025-03-13 00:47:05,763 - market_maker - INFO - Cancelling order ID: 153
+2025-03-13 00:47:05,763 - market_maker - INFO - Canceled order 153
+2025-03-13 00:47:05,763 - market_maker - INFO - Cancelling order ID: 154
+2025-03-13 00:47:05,763 - market_maker - INFO - Canceled order 154
+2025-03-13 00:47:05,763 - market_maker - INFO - Placing buy order: 5.0 @ 1.085791
+2025-03-13 00:47:05,763 - market_maker - INFO - Created buy order 155: 5.0 @ 1.085791328080975
+2025-03-13 00:47:05,763 - market_maker - INFO - Successfully placed buy order with ID: 155
+2025-03-13 00:47:05,763 - market_maker - INFO - Placing sell order: 5.0 @ 1.113792
+2025-03-13 00:47:05,763 - market_maker - INFO - Executed buy order: 5.0 @ 1.085791328080975
+2025-03-13 00:47:05,764 - market_maker - INFO - Created sell order 156: 5.0 @ 1.113792082305788
+2025-03-13 00:47:05,764 - market_maker - INFO - Successfully placed sell order with ID: 156
+2025-03-13 00:47:05,764 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7541
+2025-03-13 00:47:05,869 - market_maker - INFO - === Paper Trading Cycle 85/100 ===
+2025-03-13 00:47:05,877 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:05.877777 ===
+2025-03-13 00:47:05,880 - market_maker - INFO - Balances: USDT=1260.0, USD=9721.0957269603
+2025-03-13 00:47:05,880 - market_maker - INFO - Updated inventory: -0.7539 (base: 1260.0, quote: 9721.0957269603)
+2025-03-13 00:47:05,880 - market_maker - INFO - A-S Model - Mid: 1.082322, Bid: 1.082317, Ask: 1.102322
+2025-03-13 00:47:05,880 - market_maker - INFO - Spread adjustment: inventory=-0.7539, factor=0.8000
+2025-03-13 00:47:05,880 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:05,880 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:05,881 - market_maker - INFO - Prices - Mid: 1.082322, Bid: 1.082321, Ask: 1.110322
+2025-03-13 00:47:05,881 - market_maker - INFO - Cancelling order ID: 156
+2025-03-13 00:47:05,881 - market_maker - INFO - Canceled order 156
+2025-03-13 00:47:05,881 - market_maker - INFO - Placing buy order: 5.0 @ 1.082321
+2025-03-13 00:47:05,881 - market_maker - INFO - Created buy order 157: 5.0 @ 1.0823212366323058
+2025-03-13 00:47:05,881 - market_maker - INFO - Successfully placed buy order with ID: 157
+2025-03-13 00:47:05,881 - market_maker - INFO - Placing sell order: 5.0 @ 1.110322
+2025-03-13 00:47:05,881 - market_maker - INFO - Executed buy order: 5.0 @ 1.0823212366323058
+2025-03-13 00:47:05,881 - market_maker - INFO - Created sell order 158: 5.0 @ 1.1103219908556705
+2025-03-13 00:47:05,881 - market_maker - INFO - Successfully placed sell order with ID: 158
+2025-03-13 00:47:05,881 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7539
+2025-03-13 00:47:05,986 - market_maker - INFO - === Paper Trading Cycle 86/100 ===
+2025-03-13 00:47:05,988 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:05.988868 ===
+2025-03-13 00:47:05,990 - market_maker - INFO - Balances: USDT=1265.0, USD=9715.68412077714
+2025-03-13 00:47:05,990 - market_maker - INFO - Updated inventory: -0.7529 (base: 1265.0, quote: 9715.68412077714)
+2025-03-13 00:47:05,990 - market_maker - INFO - A-S Model - Mid: 1.082860, Bid: 1.082855, Ask: 1.102860
+2025-03-13 00:47:05,990 - market_maker - INFO - Spread adjustment: inventory=-0.7529, factor=0.8000
+2025-03-13 00:47:05,990 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:05,990 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:05,990 - market_maker - INFO - Prices - Mid: 1.082860, Bid: 1.082859, Ask: 1.110860
+2025-03-13 00:47:05,990 - market_maker - INFO - Placing buy order: 5.0 @ 1.082859
+2025-03-13 00:47:05,990 - market_maker - INFO - Created buy order 159: 5.0 @ 1.0828592766846858
+2025-03-13 00:47:05,990 - market_maker - INFO - Successfully placed buy order with ID: 159
+2025-03-13 00:47:05,990 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7529
+2025-03-13 00:47:06,095 - market_maker - INFO - === Paper Trading Cycle 87/100 ===
+2025-03-13 00:47:06,098 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:06.098514 ===
+2025-03-13 00:47:06,100 - market_maker - INFO - Executed buy order: 5.0 @ 1.0828592766846858
+2025-03-13 00:47:06,100 - market_maker - INFO - Balances: USDT=1270.0, USD=9710.269824393716
+2025-03-13 00:47:06,100 - market_maker - INFO - Updated inventory: -0.7524 (base: 1270.0, quote: 9710.269824393716)
+2025-03-13 00:47:06,100 - market_maker - INFO - A-S Model - Mid: 1.080094, Bid: 1.080089, Ask: 1.100094
+2025-03-13 00:47:06,100 - market_maker - INFO - Spread adjustment: inventory=-0.7524, factor=0.8000
+2025-03-13 00:47:06,100 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:06,100 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:06,100 - market_maker - INFO - Prices - Mid: 1.080094, Bid: 1.080093, Ask: 1.108094
+2025-03-13 00:47:06,100 - market_maker - INFO - Cancelling order ID: 158
+2025-03-13 00:47:06,100 - market_maker - INFO - Canceled order 158
+2025-03-13 00:47:06,100 - market_maker - INFO - Placing buy order: 5.0 @ 1.080093
+2025-03-13 00:47:06,101 - market_maker - INFO - Created buy order 160: 5.0 @ 1.0800931932598048
+2025-03-13 00:47:06,101 - market_maker - INFO - Successfully placed buy order with ID: 160
+2025-03-13 00:47:06,101 - market_maker - INFO - Placing sell order: 5.0 @ 1.108094
+2025-03-13 00:47:06,101 - market_maker - INFO - Created sell order 161: 5.0 @ 1.1080939474701874
+2025-03-13 00:47:06,101 - market_maker - INFO - Successfully placed sell order with ID: 161
+2025-03-13 00:47:06,101 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7524
+2025-03-13 00:47:06,206 - market_maker - INFO - === Paper Trading Cycle 88/100 ===
+2025-03-13 00:47:06,214 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:06.214808 ===
+2025-03-13 00:47:06,218 - market_maker - INFO - Balances: USDT=1270.0, USD=9704.869358427417
+2025-03-13 00:47:06,218 - market_maker - INFO - Updated inventory: -0.7516 (base: 1270.0, quote: 9704.869358427417)
+2025-03-13 00:47:06,218 - market_maker - INFO - A-S Model - Mid: 1.083480, Bid: 1.083475, Ask: 1.103480
+2025-03-13 00:47:06,218 - market_maker - INFO - Spread adjustment: inventory=-0.7516, factor=0.8000
+2025-03-13 00:47:06,218 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:06,218 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:06,218 - market_maker - INFO - Prices - Mid: 1.083480, Bid: 1.083479, Ask: 1.111480
+2025-03-13 00:47:06,218 - market_maker - INFO - Cancelling order ID: 160
+2025-03-13 00:47:06,218 - market_maker - INFO - Canceled order 160
+2025-03-13 00:47:06,219 - market_maker - INFO - Cancelling order ID: 161
+2025-03-13 00:47:06,219 - market_maker - INFO - Canceled order 161
+2025-03-13 00:47:06,219 - market_maker - INFO - Placing buy order: 5.0 @ 1.083479
+2025-03-13 00:47:06,219 - market_maker - INFO - Created buy order 162: 5.0 @ 1.0834791828281751
+2025-03-13 00:47:06,219 - market_maker - INFO - Successfully placed buy order with ID: 162
+2025-03-13 00:47:06,219 - market_maker - INFO - Placing sell order: 5.0 @ 1.111480
+2025-03-13 00:47:06,219 - market_maker - INFO - Executed buy order: 5.0 @ 1.0834791828281751
+2025-03-13 00:47:06,219 - market_maker - INFO - Created sell order 163: 5.0 @ 1.1114799370316581
+2025-03-13 00:47:06,219 - market_maker - INFO - Successfully placed sell order with ID: 163
+2025-03-13 00:47:06,219 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7516
+2025-03-13 00:47:06,324 - market_maker - INFO - === Paper Trading Cycle 89/100 ===
+2025-03-13 00:47:06,332 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:06.332307 ===
+2025-03-13 00:47:06,333 - market_maker - INFO - Balances: USDT=1275.0, USD=9704.852428479575
+2025-03-13 00:47:06,333 - market_maker - INFO - Updated inventory: -0.7517 (base: 1275.0, quote: 9704.852428479575)
+2025-03-13 00:47:06,333 - market_maker - INFO - A-S Model - Mid: 1.078734, Bid: 1.078728, Ask: 1.098733
+2025-03-13 00:47:06,333 - market_maker - INFO - Spread adjustment: inventory=-0.7517, factor=0.8000
+2025-03-13 00:47:06,333 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:06,333 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:06,333 - market_maker - INFO - Prices - Mid: 1.078734, Bid: 1.078733, Ask: 1.106733
+2025-03-13 00:47:06,333 - market_maker - INFO - Cancelling order ID: 163
+2025-03-13 00:47:06,333 - market_maker - INFO - Canceled order 163
+2025-03-13 00:47:06,333 - market_maker - INFO - Placing buy order: 5.0 @ 1.078733
+2025-03-13 00:47:06,333 - market_maker - INFO - Created buy order 164: 5.0 @ 1.0787325830967383
+2025-03-13 00:47:06,333 - market_maker - INFO - Successfully placed buy order with ID: 164
+2025-03-13 00:47:06,334 - market_maker - INFO - Placing sell order: 5.0 @ 1.106733
+2025-03-13 00:47:06,334 - market_maker - INFO - Created sell order 165: 5.0 @ 1.1067333373010821
+2025-03-13 00:47:06,334 - market_maker - INFO - Successfully placed sell order with ID: 165
+2025-03-13 00:47:06,334 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7517
+2025-03-13 00:47:06,439 - market_maker - INFO - === Paper Trading Cycle 90/100 ===
+2025-03-13 00:47:06,446 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:06.446315 ===
+2025-03-13 00:47:06,448 - market_maker - INFO - Executed buy order: 5.0 @ 1.0787325830967383
+2025-03-13 00:47:06,448 - market_maker - INFO - Balances: USDT=1280.0, USD=9699.458765564092
+2025-03-13 00:47:06,448 - market_maker - INFO - Updated inventory: -0.7510 (base: 1280.0, quote: 9699.458765564092)
+2025-03-13 00:47:06,448 - market_maker - INFO - A-S Model - Mid: 1.077780, Bid: 1.077774, Ask: 1.097779
+2025-03-13 00:47:06,449 - market_maker - INFO - Spread adjustment: inventory=-0.7510, factor=0.8000
+2025-03-13 00:47:06,449 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:06,449 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:06,449 - market_maker - INFO - Prices - Mid: 1.077780, Bid: 1.077779, Ask: 1.105779
+2025-03-13 00:47:06,449 - market_maker - INFO - Cancelling order ID: 165
+2025-03-13 00:47:06,449 - market_maker - INFO - Canceled order 165
+2025-03-13 00:47:06,449 - market_maker - INFO - Placing buy order: 5.0 @ 1.077779
+2025-03-13 00:47:06,449 - market_maker - INFO - Created buy order 166: 5.0 @ 1.0777785517761131
+2025-03-13 00:47:06,449 - market_maker - INFO - Successfully placed buy order with ID: 166
+2025-03-13 00:47:06,449 - market_maker - INFO - Placing sell order: 5.0 @ 1.105779
+2025-03-13 00:47:06,449 - market_maker - INFO - Executed buy order: 5.0 @ 1.0777785517761131
+2025-03-13 00:47:06,450 - market_maker - INFO - Created sell order 167: 5.0 @ 1.1057793059737344
+2025-03-13 00:47:06,450 - market_maker - INFO - Successfully placed sell order with ID: 167
+2025-03-13 00:47:06,450 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7510
+2025-03-13 00:47:06,555 - market_maker - INFO - === Paper Trading Cycle 91/100 ===
+2025-03-13 00:47:06,564 - market_maker - INFO - Updating mock exchange volatility: 0.001893
+2025-03-13 00:47:06,564 - market_maker - INFO - Updated mock exchange volatility to 0.001893
+2025-03-13 00:47:06,564 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:06.564397 ===
+2025-03-13 00:47:06,566 - market_maker - INFO - Balances: USDT=1285.0, USD=9694.06987280521
+2025-03-13 00:47:06,566 - market_maker - INFO - Updated inventory: -0.7505 (base: 1285.0, quote: 9694.06987280521)
+2025-03-13 00:47:06,566 - market_maker - INFO - A-S Model - Mid: 1.075345, Bid: 1.075340, Ask: 1.095345
+2025-03-13 00:47:06,566 - market_maker - INFO - Spread adjustment: inventory=-0.7505, factor=0.8000
+2025-03-13 00:47:06,566 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:06,566 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:06,566 - market_maker - INFO - Prices - Mid: 1.075345, Bid: 1.075344, Ask: 1.103345
+2025-03-13 00:47:06,566 - market_maker - INFO - Cancelling order ID: 167
+2025-03-13 00:47:06,566 - market_maker - INFO - Canceled order 167
+2025-03-13 00:47:06,567 - market_maker - INFO - Placing buy order: 5.0 @ 1.075344
+2025-03-13 00:47:06,567 - market_maker - INFO - Created buy order 168: 5.0 @ 1.0753443474194653
+2025-03-13 00:47:06,567 - market_maker - INFO - Successfully placed buy order with ID: 168
+2025-03-13 00:47:06,567 - market_maker - INFO - Placing sell order: 5.0 @ 1.103345
+2025-03-13 00:47:06,567 - market_maker - INFO - Executed buy order: 5.0 @ 1.0753443474194653
+2025-03-13 00:47:06,567 - market_maker - INFO - Created sell order 169: 5.0 @ 1.103345101612966
+2025-03-13 00:47:06,567 - market_maker - INFO - Successfully placed sell order with ID: 169
+2025-03-13 00:47:06,567 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7505
+2025-03-13 00:47:06,672 - market_maker - INFO - === Paper Trading Cycle 92/100 ===
+2025-03-13 00:47:06,681 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:06.681526 ===
+2025-03-13 00:47:06,685 - market_maker - INFO - Balances: USDT=1290.0, USD=9688.693151068113
+2025-03-13 00:47:06,685 - market_maker - INFO - Updated inventory: -0.7508 (base: 1290.0, quote: 9688.693151068113)
+2025-03-13 00:47:06,685 - market_maker - INFO - A-S Model - Mid: 1.069226, Bid: 1.069221, Ask: 1.089226
+2025-03-13 00:47:06,685 - market_maker - INFO - Spread adjustment: inventory=-0.7508, factor=0.8000
+2025-03-13 00:47:06,685 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:06,686 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:06,686 - market_maker - INFO - Prices - Mid: 1.069226, Bid: 1.069225, Ask: 1.097226
+2025-03-13 00:47:06,686 - market_maker - INFO - Cancelling order ID: 169
+2025-03-13 00:47:06,686 - market_maker - INFO - Canceled order 169
+2025-03-13 00:47:06,686 - market_maker - INFO - Placing buy order: 5.0 @ 1.069225
+2025-03-13 00:47:06,686 - market_maker - INFO - Created buy order 170: 5.0 @ 1.0692247802522186
+2025-03-13 00:47:06,686 - market_maker - INFO - Successfully placed buy order with ID: 170
+2025-03-13 00:47:06,686 - market_maker - INFO - Placing sell order: 5.0 @ 1.097226
+2025-03-13 00:47:06,686 - market_maker - INFO - Created sell order 171: 5.0 @ 1.0972255344481034
+2025-03-13 00:47:06,686 - market_maker - INFO - Successfully placed sell order with ID: 171
+2025-03-13 00:47:06,686 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7508
+2025-03-13 00:47:06,791 - market_maker - INFO - === Paper Trading Cycle 93/100 ===
+2025-03-13 00:47:06,799 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:06.799868 ===
+2025-03-13 00:47:06,802 - market_maker - INFO - Executed buy order: 5.0 @ 1.0692247802522186
+2025-03-13 00:47:06,803 - market_maker - INFO - Balances: USDT=1295.0, USD=9683.347027166852
+2025-03-13 00:47:06,803 - market_maker - INFO - Updated inventory: -0.7496 (base: 1295.0, quote: 9683.347027166852)
+2025-03-13 00:47:06,803 - market_maker - INFO - A-S Model - Mid: 1.070324, Bid: 1.070319, Ask: 1.090324
+2025-03-13 00:47:06,803 - market_maker - INFO - Spread adjustment: inventory=-0.7496, factor=0.8000
+2025-03-13 00:47:06,803 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:06,803 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:06,803 - market_maker - INFO - Prices - Mid: 1.070324, Bid: 1.070323, Ask: 1.098324
+2025-03-13 00:47:06,803 - market_maker - INFO - Cancelling order ID: 171
+2025-03-13 00:47:06,803 - market_maker - INFO - Canceled order 171
+2025-03-13 00:47:06,803 - market_maker - INFO - Placing buy order: 5.0 @ 1.070323
+2025-03-13 00:47:06,803 - market_maker - INFO - Created buy order 172: 5.0 @ 1.070323005370181
+2025-03-13 00:47:06,803 - market_maker - INFO - Successfully placed buy order with ID: 172
+2025-03-13 00:47:06,803 - market_maker - INFO - Placing sell order: 5.0 @ 1.098324
+2025-03-13 00:47:06,803 - market_maker - INFO - Executed buy order: 5.0 @ 1.070323005370181
+2025-03-13 00:47:06,803 - market_maker - INFO - Created sell order 173: 5.0 @ 1.098323759555818
+2025-03-13 00:47:06,803 - market_maker - INFO - Successfully placed sell order with ID: 173
+2025-03-13 00:47:06,803 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7496
+2025-03-13 00:47:06,909 - market_maker - INFO - === Paper Trading Cycle 94/100 ===
+2025-03-13 00:47:06,917 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:06.917102 ===
+2025-03-13 00:47:06,919 - market_maker - INFO - Balances: USDT=1300.0, USD=9677.99541214
+2025-03-13 00:47:06,919 - market_maker - INFO - Updated inventory: -0.7490 (base: 1300.0, quote: 9677.99541214)
+2025-03-13 00:47:06,919 - market_maker - INFO - A-S Model - Mid: 1.068507, Bid: 1.068502, Ask: 1.088507
+2025-03-13 00:47:06,920 - market_maker - INFO - Spread adjustment: inventory=-0.7490, factor=0.8000
+2025-03-13 00:47:06,920 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:06,920 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:06,920 - market_maker - INFO - Prices - Mid: 1.068507, Bid: 1.068506, Ask: 1.096507
+2025-03-13 00:47:06,920 - market_maker - INFO - Cancelling order ID: 173
+2025-03-13 00:47:06,920 - market_maker - INFO - Canceled order 173
+2025-03-13 00:47:06,920 - market_maker - INFO - Placing buy order: 5.0 @ 1.068506
+2025-03-13 00:47:06,920 - market_maker - INFO - Created buy order 174: 5.0 @ 1.068505821708608
+2025-03-13 00:47:06,920 - market_maker - INFO - Successfully placed buy order with ID: 174
+2025-03-13 00:47:06,920 - market_maker - INFO - Placing sell order: 5.0 @ 1.096507
+2025-03-13 00:47:06,920 - market_maker - INFO - Created sell order 175: 5.0 @ 1.0965065758891388
+2025-03-13 00:47:06,920 - market_maker - INFO - Successfully placed sell order with ID: 175
+2025-03-13 00:47:06,920 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7490
+2025-03-13 00:47:07,025 - market_maker - INFO - === Paper Trading Cycle 95/100 ===
+2025-03-13 00:47:07,034 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:07.034950 ===
+2025-03-13 00:47:07,037 - market_maker - INFO - Balances: USDT=1300.0, USD=9672.652883031458
+2025-03-13 00:47:07,037 - market_maker - INFO - Updated inventory: -0.7486 (base: 1300.0, quote: 9672.652883031458)
+2025-03-13 00:47:07,037 - market_maker - INFO - A-S Model - Mid: 1.069805, Bid: 1.069800, Ask: 1.089804
+2025-03-13 00:47:07,037 - market_maker - INFO - Spread adjustment: inventory=-0.7486, factor=0.8000
+2025-03-13 00:47:07,037 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:07,037 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:07,037 - market_maker - INFO - Prices - Mid: 1.069805, Bid: 1.069804, Ask: 1.097804
+2025-03-13 00:47:07,038 - market_maker - INFO - Executed buy order: 5.0 @ 1.068505821708608
+2025-03-13 00:47:07,038 - market_maker - INFO - Cancelling order ID: 175
+2025-03-13 00:47:07,038 - market_maker - INFO - Canceled order 175
+2025-03-13 00:47:07,038 - market_maker - INFO - Placing buy order: 5.0 @ 1.069804
+2025-03-13 00:47:07,038 - market_maker - INFO - Created buy order 176: 5.0 @ 1.0698036502990196
+2025-03-13 00:47:07,038 - market_maker - INFO - Successfully placed buy order with ID: 176
+2025-03-13 00:47:07,038 - market_maker - INFO - Placing sell order: 5.0 @ 1.097804
+2025-03-13 00:47:07,038 - market_maker - INFO - Executed buy order: 5.0 @ 1.0698036502990196
+2025-03-13 00:47:07,038 - market_maker - INFO - Created sell order 177: 5.0 @ 1.097804404476215
+2025-03-13 00:47:07,038 - market_maker - INFO - Successfully placed sell order with ID: 177
+2025-03-13 00:47:07,038 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7486
+2025-03-13 00:47:07,143 - market_maker - INFO - === Paper Trading Cycle 96/100 ===
+2025-03-13 00:47:07,152 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:07.152064 ===
+2025-03-13 00:47:07,154 - market_maker - INFO - Balances: USDT=1310.0, USD=9667.303864779964
+2025-03-13 00:47:07,155 - market_maker - INFO - Updated inventory: -0.7473 (base: 1310.0, quote: 9667.303864779964)
+2025-03-13 00:47:07,155 - market_maker - INFO - A-S Model - Mid: 1.067248, Bid: 1.067243, Ask: 1.087248
+2025-03-13 00:47:07,155 - market_maker - INFO - Spread adjustment: inventory=-0.7473, factor=0.8000
+2025-03-13 00:47:07,155 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:07,155 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:07,155 - market_maker - INFO - Prices - Mid: 1.067248, Bid: 1.067247, Ask: 1.095248
+2025-03-13 00:47:07,155 - market_maker - INFO - Cancelling order ID: 177
+2025-03-13 00:47:07,155 - market_maker - INFO - Canceled order 177
+2025-03-13 00:47:07,155 - market_maker - INFO - Placing buy order: 5.0 @ 1.067247
+2025-03-13 00:47:07,155 - market_maker - INFO - Created buy order 178: 5.0 @ 1.067246824992968
+2025-03-13 00:47:07,155 - market_maker - INFO - Successfully placed buy order with ID: 178
+2025-03-13 00:47:07,155 - market_maker - INFO - Placing sell order: 5.0 @ 1.095248
+2025-03-13 00:47:07,155 - market_maker - INFO - Executed buy order: 5.0 @ 1.067246824992968
+2025-03-13 00:47:07,155 - market_maker - INFO - Created sell order 179: 5.0 @ 1.0952475791591405
+2025-03-13 00:47:07,156 - market_maker - INFO - Successfully placed sell order with ID: 179
+2025-03-13 00:47:07,156 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7473
+2025-03-13 00:47:07,261 - market_maker - INFO - === Paper Trading Cycle 97/100 ===
+2025-03-13 00:47:07,268 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:07.268263 ===
+2025-03-13 00:47:07,270 - market_maker - INFO - Balances: USDT=1315.0, USD=9661.967630654999
+2025-03-13 00:47:07,270 - market_maker - INFO - Updated inventory: -0.7476 (base: 1315.0, quote: 9661.967630654999)
+2025-03-13 00:47:07,270 - market_maker - INFO - A-S Model - Mid: 1.061323, Bid: 1.061318, Ask: 1.081323
+2025-03-13 00:47:07,270 - market_maker - INFO - Spread adjustment: inventory=-0.7476, factor=0.8000
+2025-03-13 00:47:07,270 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:07,271 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:07,271 - market_maker - INFO - Prices - Mid: 1.061323, Bid: 1.061322, Ask: 1.089323
+2025-03-13 00:47:07,271 - market_maker - INFO - Cancelling order ID: 179
+2025-03-13 00:47:07,271 - market_maker - INFO - Canceled order 179
+2025-03-13 00:47:07,271 - market_maker - INFO - Placing buy order: 5.0 @ 1.061322
+2025-03-13 00:47:07,271 - market_maker - INFO - Created buy order 180: 5.0 @ 1.061322271985506
+2025-03-13 00:47:07,271 - market_maker - INFO - Successfully placed buy order with ID: 180
+2025-03-13 00:47:07,271 - market_maker - INFO - Placing sell order: 5.0 @ 1.089323
+2025-03-13 00:47:07,271 - market_maker - INFO - Created sell order 181: 5.0 @ 1.0893230261539626
+2025-03-13 00:47:07,271 - market_maker - INFO - Successfully placed sell order with ID: 181
+2025-03-13 00:47:07,271 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7476
+2025-03-13 00:47:07,376 - market_maker - INFO - === Paper Trading Cycle 98/100 ===
+2025-03-13 00:47:07,385 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:07.385239 ===
+2025-03-13 00:47:07,388 - market_maker - INFO - Balances: USDT=1315.0, USD=9656.661019295072
+2025-03-13 00:47:07,388 - market_maker - INFO - Updated inventory: -0.7469 (base: 1315.0, quote: 9656.661019295072)
+2025-03-13 00:47:07,388 - market_maker - INFO - A-S Model - Mid: 1.063753, Bid: 1.063748, Ask: 1.083753
+2025-03-13 00:47:07,388 - market_maker - INFO - Spread adjustment: inventory=-0.7469, factor=0.8000
+2025-03-13 00:47:07,389 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:07,389 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:07,389 - market_maker - INFO - Prices - Mid: 1.063753, Bid: 1.063752, Ask: 1.091753
+2025-03-13 00:47:07,389 - market_maker - INFO - Executed buy order: 5.0 @ 1.061322271985506
+2025-03-13 00:47:07,389 - market_maker - INFO - Cancelling order ID: 181
+2025-03-13 00:47:07,389 - market_maker - INFO - Canceled order 181
+2025-03-13 00:47:07,389 - market_maker - INFO - Placing buy order: 5.0 @ 1.063752
+2025-03-13 00:47:07,389 - market_maker - INFO - Created buy order 182: 5.0 @ 1.06375186037758
+2025-03-13 00:47:07,389 - market_maker - INFO - Successfully placed buy order with ID: 182
+2025-03-13 00:47:07,389 - market_maker - INFO - Placing sell order: 5.0 @ 1.091753
+2025-03-13 00:47:07,389 - market_maker - INFO - Executed buy order: 5.0 @ 1.06375186037758
+2025-03-13 00:47:07,389 - market_maker - INFO - Created sell order 183: 5.0 @ 1.0917526145406586
+2025-03-13 00:47:07,389 - market_maker - INFO - Successfully placed sell order with ID: 183
+2025-03-13 00:47:07,389 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7469
+2025-03-13 00:47:07,495 - market_maker - INFO - === Paper Trading Cycle 99/100 ===
+2025-03-13 00:47:07,502 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:07.501975 ===
+2025-03-13 00:47:07,504 - market_maker - INFO - Balances: USDT=1325.0, USD=9651.342259993184
+2025-03-13 00:47:07,504 - market_maker - INFO - Updated inventory: -0.7454 (base: 1325.0, quote: 9651.342259993184)
+2025-03-13 00:47:07,504 - market_maker - INFO - A-S Model - Mid: 1.062484, Bid: 1.062479, Ask: 1.082484
+2025-03-13 00:47:07,504 - market_maker - INFO - Spread adjustment: inventory=-0.7454, factor=0.8000
+2025-03-13 00:47:07,504 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:07,504 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:07,504 - market_maker - INFO - Prices - Mid: 1.062484, Bid: 1.062483, Ask: 1.090484
+2025-03-13 00:47:07,505 - market_maker - INFO - Cancelling order ID: 183
+2025-03-13 00:47:07,505 - market_maker - INFO - Canceled order 183
+2025-03-13 00:47:07,505 - market_maker - INFO - Placing buy order: 5.0 @ 1.062483
+2025-03-13 00:47:07,505 - market_maker - INFO - Created buy order 184: 5.0 @ 1.0624830515645367
+2025-03-13 00:47:07,505 - market_maker - INFO - Successfully placed buy order with ID: 184
+2025-03-13 00:47:07,505 - market_maker - INFO - Placing sell order: 5.0 @ 1.090484
+2025-03-13 00:47:07,505 - market_maker - INFO - Created sell order 185: 5.0 @ 1.0904838057144277
+2025-03-13 00:47:07,505 - market_maker - INFO - Successfully placed sell order with ID: 185
+2025-03-13 00:47:07,505 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7454
+2025-03-13 00:47:07,610 - market_maker - INFO - === Paper Trading Cycle 100/100 ===
+2025-03-13 00:47:07,616 - market_maker - INFO - === Market Making Cycle: 2025-03-13 00:47:07.616734 ===
+2025-03-13 00:47:07,619 - market_maker - INFO - Balances: USDT=1325.0, USD=9646.029844735362
+2025-03-13 00:47:07,619 - market_maker - INFO - Updated inventory: -0.7441 (base: 1325.0, quote: 9646.029844735362)
+2025-03-13 00:47:07,619 - market_maker - INFO - A-S Model - Mid: 1.067949, Bid: 1.067943, Ask: 1.087948
+2025-03-13 00:47:07,619 - market_maker - INFO - Spread adjustment: inventory=-0.7441, factor=0.8000
+2025-03-13 00:47:07,619 - market_maker - INFO - Spreads before: bid=0.000005, ask=0.020000
+2025-03-13 00:47:07,619 - market_maker - INFO - Spreads after: bid=0.000001, ask=0.028000
+2025-03-13 00:47:07,619 - market_maker - INFO - Prices - Mid: 1.067949, Bid: 1.067948, Ask: 1.095948
+2025-03-13 00:47:07,619 - market_maker - INFO - Cancelling order ID: 184
+2025-03-13 00:47:07,620 - market_maker - INFO - Canceled order 184
+2025-03-13 00:47:07,620 - market_maker - INFO - Cancelling order ID: 185
+2025-03-13 00:47:07,620 - market_maker - INFO - Canceled order 185
+2025-03-13 00:47:07,620 - market_maker - INFO - Placing buy order: 5.0 @ 1.067948
+2025-03-13 00:47:07,620 - market_maker - INFO - Created buy order 186: 5.0 @ 1.0679475931298814
+2025-03-13 00:47:07,620 - market_maker - INFO - Successfully placed buy order with ID: 186
+2025-03-13 00:47:07,620 - market_maker - INFO - Placing sell order: 5.0 @ 1.095948
+2025-03-13 00:47:07,620 - market_maker - INFO - Executed buy order: 5.0 @ 1.0679475931298814
+2025-03-13 00:47:07,620 - market_maker - INFO - Created sell order 187: 5.0 @ 1.0959483472689269
+2025-03-13 00:47:07,620 - market_maker - INFO - Successfully placed sell order with ID: 187
+2025-03-13 00:47:07,620 - market_maker - INFO - Cycle completed - Vol: 0.001893, Inv: -0.7441
+2025-03-13 00:47:07,730 - market_maker - INFO - === Paper Trading Results ===
+2025-03-13 00:47:07,730 - market_maker - INFO - Creating performance visualizations...
+2025-03-13 00:47:08,222 - market_maker - INFO - Visualizations created successfully
+2025-03-13 00:47:08,222 - market_maker - INFO - Initial Portfolio Value: 10997.56
+2025-03-13 00:47:08,222 - market_maker - INFO - Final Portfolio Value: 11061.06
+2025-03-13 00:47:08,222 - market_maker - INFO - P&L: 63.50 (0.58%)
+2025-03-13 00:47:08,222 - market_maker - INFO - Completed 100 position records
+2025-03-13 00:47:08,222 - market_maker - INFO - Executed 0 trades

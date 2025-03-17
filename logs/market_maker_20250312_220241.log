@@ -1,0 +1,27 @@
+2025-03-12 22:02:41,509 - market_maker - INFO - Starting market making bot
+2025-03-12 22:02:41,512 - market_maker - INFO - Successfully initialized kraken exchange
+2025-03-12 22:02:41,512 - market_maker - INFO - Initialized order manager for USDT/USD with base size 5.0
+2025-03-12 22:02:41,512 - market_maker - INFO - Initialized circuit breakers with price change threshold: 0.1
+2025-03-12 22:02:41,512 - market_maker - INFO - Initialized inventory manager with max pct: 0.1, threshold: 0.05
+2025-03-12 22:02:41,512 - market_maker - INFO - Initialized A-S model with gamma=0.001, lambda_b=52744.56, lambda_a=21931.87
+2025-03-12 22:02:41,512 - market_maker - INFO - === Market Making Cycle: 2025-03-12 22:02:41.512213 ===
+2025-03-12 22:02:41,512 - market_maker - INFO - Fetching 40 1m candles for USDT/USD
+2025-03-12 22:02:43,848 - market_maker - INFO - Successfully fetched 40 candles
+2025-03-12 22:02:43,852 - market_maker - INFO - Current volatility estimate: 0.000015
+2025-03-12 22:02:47,050 - market_maker - INFO - Balances: USDT=0, USD=0
+2025-03-12 22:02:47,862 - market_maker - INFO - Updated inventory: 0.0000 (base: 0, quote: 0)
+2025-03-12 22:02:47,863 - market_maker - INFO - A-S Model - Mid: 0.999685, Bid: 0.999666, Ask: 0.999731
+2025-03-12 22:02:47,863 - market_maker - INFO - Prices - Mid: 0.999685, Bid: 0.999666, Ask: 0.999731
+2025-03-12 22:02:47,863 - market_maker - INFO - Cancelling all open orders for USDT/USD
+2025-03-12 22:02:50,863 - market_maker - INFO - Cancelled 0 open orders
+2025-03-12 22:02:50,864 - market_maker - INFO - Placing buy order: 5.0 @ 0.999666
+2025-03-12 22:02:50,985 - market_maker - ERROR - Error placing buy order: kraken {"error":["EOrder:Insufficient funds"]}
+2025-03-12 22:02:50,986 - market_maker - INFO - Placing sell order: 5.0 @ 0.999731
+2025-03-12 22:02:51,109 - market_maker - ERROR - Error placing sell order: kraken {"error":["EOrder:Insufficient funds"]}
+2025-03-12 22:02:51,110 - market_maker - INFO - Cycle completed - Vol: 0.000015, Inv: 0.0000
+2025-03-12 22:03:01,123 - market_maker - INFO - Bot stopped by user
+2025-03-12 22:03:01,125 - market_maker - INFO - Cancelling all open orders for USDT/USD
+2025-03-12 22:03:01,239 - market_maker - INFO - Cancelled 0 open orders
+2025-03-12 22:03:01,239 - market_maker - INFO - Bot shutting down
+2025-03-12 22:03:01,239 - market_maker - INFO - Cancelling all open orders for USDT/USD
+2025-03-12 22:03:04,283 - market_maker - INFO - Cancelled 0 open orders
